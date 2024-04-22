@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>pSolver</title>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/favicon.png" />
+	<meta name="description" content="Problem Solver" />
+	<meta name="keywords" content="pSolver" />
+	<meta name="author" content="Juan F. Coronel Toro" />
+	<link rel="stylesheet" type="text/css" href="../../css/semantic/semantic.min.css">
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<script src="../../css/semantic/semantic.min.js"></script>
+</head>
+
+<body>
+
+	<div class="ui container">
+		<h2><img style="margin-top: 10px;" src="img/logo_psolver.svg" width="48px" alt="Logo pSolver"> pSolver
+		</h2>
+
+		<div class="ui secondary pointing menu container">
+			<a href="index.html" class="item">HOME</a>
+			<a href="user manual.html" class="item">USER MANUAL</a>
+			<a href="history.html" class="item active">HISTORY</a>
+			<a href="examples.html" class="item">EXAMPLES</a>
+		</div>
+
+		<div class="ui main container">
+
+			<h1>History</h1>
+			<h4>Reverse time evolution (from bottom to top)</h4>
+
+			<p>Only changes since the first English version (version 4.0) are shown.</p>
+
+			<div class="ui segment">
+				<h3>V 4.24 (11 April 2024)</h3>
+				<p>Component Lockout</p>
+				<ul>
+					<li>The possibility of locking individual components by means of a check box has been added, thus
+						preventing them from being modified or deleted unintentionally.
+					</li>
+					<li>Fixed some minor bugs./li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.23 (18 March 2024)</h3>
+				<p>A3 page format</p>
+				<ul>
+					<li>A3 page size (portrait/landscape) is added to the properties of each of the problems.
+					</li>
+					<li>The upper width limit on images and graphics is changed so that it can be greater than 100% on
+						A3 or landscape pages.
+					</li>
+					<li>Fixed some minor bugs./li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.22 (29 February 2024)</h3>
+				<p>Landscape page format</p>
+				<ul>
+					<li>Page orientation (portrait/landscape) is added to the properties of each of the problems.
+					</li>
+					<li>The page setup of the problem list is stored so that it does not change when returning to the
+						list from the problems.
+					</li>
+					<li>Fixed some minor bugs.</li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.21 (24 January 2024)</h3>
+				<p>Errors in copying statements</p>
+				<ul>
+					<li>Standard users (students) are not allowed to copy statements, only teachers are allowed to do
+						so.
+					</li>
+					<li>Problems that are statements are removed from the list of activities linked to a statement.
+						Preventing the statement itself and any copy of it from appearing.
+					</li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.20 (17 January 2024)</h3>
+				<p>Types of users: Students and Teachers.</p>
+				<ul>
+					<li>Two different types of users are established for the application: Standard (student) and
+						Teacher. The difference is that only Teacher type users will be able to create "Statements".
+					</li>
+					<li>The value of the maximum number of problems is changed to 50 for standard users and 250 for
+						teachers.</li>
+					<li>El número máximo de problemas se muestra en la información general del usuario.</li>
+					<li>The maximum number of problems is shown in the user's general information.</li>
+					<li>The creation of a new activity is done via a separate button from the copy problem button.</li>
+					<li>Teachers can edit student activities, even if they are already submitted</li>
+					<li>Links to images in Google Drive are changed, due to a problem with direct links from google
+						drive that was detected as of 11 January 2014
+						(https://issuetracker.google.com/issues/319531488?pli=1).
+					</li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.13 (5 December 2023)</h3>
+				<p>Redefining, simplifying and reordering</p>
+				<ul>
+					<li>Rearrangement of the button bar, left back arrow, separation between edit and resolution
+						buttons.</li>
+					<li>Clicking on IDs copies their value to the clipboard.</li>
+					<li>Problem types are redefined: "Regular", "Statement", "Activity". To create a statement
+						(previously called "Teacher activity") a regular problem will be created and in its properties
+						the "Statement" check is used. It is therefore possible to switch between regular problem and
+						statement.
+					</li>
+					<li>"Activities" formerly called "Student Activity" are created by copying a statement.
+					</li>
+					<li>In the statements the id of the correct problem or solution problem is stored.</li>
+					<li>In the list of activities linked to a statement, some errors are corrected and the export to CSV
+						and the
+						personalised configuration of the pagination are added. In addition, the number of correct,
+						incorrect and
+						not found are separated into columns.
+					</li>
+					<li>he quick messages disappear all by time, some of them stayed when an error occurred.
+					</li>
+					<li>In the unknowns the unit change is shown even if the unknown is not yet calculated.</li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.12 (30 October 2023)</h3>
+				<p>Correction of problems with tolerance</p>
+				<ul>
+					<li>In correction by comparison of problems, the values are considered correct when the error is
+						less than 0.1%.
+						In case the correct value is 0, the user value must be less than 1e-9.
+						It does not perform correction of the string used for the unit.
+					</li>
+					<li>When trying to solve a problem where one of its active components has an error,
+						the program will display an informational message and suspend the resolution.
+					</li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.11 (19 September 2023)</h3>
+				<p>Improving quick editing</p>
+				<ul>
+					<li>The responsiveness of quick editing (double-click) of data, unknowns and equations is improved.
+					</li>
+					<li>A link to the "Documentation" is added to the top area of the registration screen and the
+						problem list.</li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.10 (11 September 2023)</h3>
+				<p>Improving section management</p>
+				<ul>
+					<li>Global sections: the components of these sections will be used in all other sections of the
+						problem.</li>
+					<li>Correction by comparison can already be used in problems with sections.</li>
+					<li>Possibility to make problems "private", private problems cannot be viewed or copied.</li>
+					<li>New filter by type of problem: "normal", "activity as teacher", "activity as student".</li>
+					<li>The language change can only be made on the initial registration screen.</li>
+					<li>Fixed error in solving problems with data equal to "?".</li>
+					<li>Error correction in the tables placed in sections.</li>
+					<li>Fixed error in some messages after translation into English.</li>
+				</ul>
+			</div>
+
+			<div class="ui segment">
+				<h3>V 4.00 (12 July 2023)</h3>
+				<p>Name change, we are now <img src="img/logo_psolver.svg" width="32px" alt="Logo pSolver">
+					<strong>pSolver</strong>
+				</p>
+				<ul>
+					<li>Change of name and logo. New name pSolver, new website http://psolver.org
+					</li>
+					<li>First English version of the application.
+						The user can choose between the English or the Spanish version.</li>
+					<li>Multiple components are selected by pressing ctrl/cmd and dragging the mouse.
+						A box with a dashed border will be shown.
+					</li>
+					<li>In the text we can insert equations in the same format used by the application,
+						surrounding them with $$.
+					</li>
+					<li>It is now possible to use incompressible fluid names in string type data.
+						<a href="http://www.coolprop.org/fluid_properties/Incompressibles.html">
+							http://www.coolprop.org/fluid_properties/Incompressibles.html </a>
+					</li>
+					<li>The gamma function (Euler's Gamma, a generalisation of the factorial) is removed,
+						in order to be able to use gamma as a variable.</li>
+					<li>The tabular view can be sorted by sections.</li>
+					<li>You can click inside the quick edit boxes to change the cursor position.
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		<br>
+
+		<div class="ui center aligned container">
+			<p><a href="index_es.html" class="ui inverted link">pSolver</a> ::
+				<a href="https://groups.google.com/d/forum/pSolver" target="_blank">User group</a> ::
+				<a href="http://www.twitter.com/psolver_org" target="_blank">twitter</a>
+			</p>
+		</div>
+		<br>
+	</div>
+</body>
+
+</html>
