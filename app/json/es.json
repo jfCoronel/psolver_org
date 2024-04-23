@@ -115,6 +115,7 @@
     "dlg_prob_correcto_not_found_mensaje": "No se encuentra ningún problema con el id. del problema correcto",
     "tbl_act_alu_descripcion": "Descripción",
     "tbl_act_alu_autor": "Autor",
+    "tbl_act_alu_email": "E-mail",
     "tbl_act_alu_entrega": "Entrega",
     "tbl_act_alu_correcta": "Var. correcta",
     "tbl_act_alu_incorrecta": "Var. incorrecta",
@@ -405,5 +406,6 @@
     "orientacion_horizontal": "A4 - Horizontal",
     "orientacion_vertical_a3": "A3 - Vertical",
     "orientacion_horizontal_a3": "A3 - Horizontal",
-    "men_rap_no_borrar_bloqueado": "No es posible eliminar un componente bloqueado"
+    "men_rap_no_borrar_bloqueado": "No es posible eliminar un componente bloqueado",
+    "url_raiz": "https://jfcoronel.github.io/psolver_org/"
 }
