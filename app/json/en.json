@@ -124,7 +124,7 @@
     "tbl_act_alu_ver_prob": "Go prob.",
     "tbl_act_alu_id_correcto": "Correct Problem ID:",
     "tbl_act_alu_corregir": "Correct",
-    "tbl_act_alu_id_actividad": "Activity: ",
+    "tbl_act_alu_nombre_enunciado": "Statement: ",
     "ttip_volver_lista_prob": "Back to problem list",
     "no_entregada": "Not delivered",
     "ttip_nuevo_problema": "New problem",
