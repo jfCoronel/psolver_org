@@ -31,7 +31,7 @@
 
 		<div class="ui main container">
 			<h1>Manual de usuario</h1>
-			<h4>Actualizado a la versión 4.26</h4>
+			<h4>Actualizado a la versión 4.30</h4>
 
 			<h2>Índice</h2>
 			<ol style="font-size: 1.2rem; line-height: 1.3">
@@ -242,7 +242,8 @@
 
 				<p>El desplegable "Filtro" permite realizar un filtro por categoría, de forma que únicamente se
 					mostrarán en la lista los problemas de las categorías seleccionadas por el usuario,
-					o realizar un filtro según el tipo de problemas: normales, enunciados o actividades (ver el apartado
+					o realizar un filtro según el tipo de problemas: normales, enunciados, soluciones o actividades (ver
+					el apartado
 					"Actividades")</p>
 
 				<p>El resto de botones que aparecen en esta ventana tienen las siguientes funciones:</p>
@@ -265,13 +266,13 @@
 						</svg>: Cerrar sesión de usuario.
 					</li>
 					<li>
-						<svg viewBox="64 64 896 896" focusable="false" data-icon="edit" width="1em" height="1em"
+						<svg viewBox="64 64 896 896" focusable="false" data-icon="team" width="1em" height="1em"
 							fill="currentColor" aria-hidden="true">
 							<path
-								d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z">
+								d="M824.2 699.9a301.55 301.55 0 00-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 00-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 008 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 01612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 008-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 01-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 01612 612zM361.5 510.4c-.9-8.7-1.4-17.5-1.4-26.4 0-15.9 1.5-31.4 4.3-46.5.7-3.6-1.2-7.3-4.5-8.8-13.6-6.1-26.1-14.5-36.9-25.1a127.54 127.54 0 01-38.7-95.4c.9-32.1 13.8-62.6 36.3-85.6 24.7-25.3 57.9-39.1 93.2-38.7 31.9.3 62.7 12.6 86 34.4 7.9 7.4 14.7 15.6 20.4 24.4 2 3.1 5.9 4.4 9.3 3.2 17.6-6.1 36.2-10.4 55.3-12.4 5.6-.6 8.8-6.6 6.3-11.6-32.5-64.3-98.9-108.7-175.7-109.9-110.9-1.7-203.3 89.2-203.3 199.9 0 62.8 28.9 118.8 74.2 155.5-31.8 14.7-61.1 35-86.5 60.4-54.8 54.7-85.8 126.9-87.8 204a8 8 0 008 8.2h56.1c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5 29.4-29.4 65.4-49.8 104.7-59.7 3.9-1 6.5-4.7 6-8.7z">
 							</path>
-						</svg>: Nueva actividad: Solicita el ID de un "Enunciado" creando una actividad a partir del
-						mismo (ver el apartado "Actividades").
+						</svg>: Cursos y actividades: Solicita el ID de un curso para poder registrase en el o el ID de
+						una tarea para crear una actividad. (ver el apartado "Actividades").
 					</li>
 					<li>
 						<svg viewBox="64 64 896 896" focusable="false" data-icon="import" width="1em" height="1em"
@@ -375,8 +376,7 @@
 				<p>Usando esta pantalla podemos cambiar el nombre, descripción, la categoría y el tamaño/orientación de
 					las páginas. Con el check
 					"privado" bloqueamos el problema, de tal forma que el problema no podrá ser visto o copiado por
-					otros. Podemos convertir en problema en un "Enunciado" para poder enviar a las alumnos, sólo para
-					los usuarios tipo "Profesor" (ver sección "Actividades).
+					otros.
 				</p>
 				<p>
 					Si queremos crear un nuevo tipo de categoría debemos hacerlo usando el desplegable "crear
@@ -1225,7 +1225,12 @@
 					del problema correcto y comparandolas con las variables del problema propio.
 					Las variables del problema correcto tienen dos niveles: Principal y Secundaria.
 					Las variables principales son las incógnitas fundamentales del problema y se marcan
-					en el problema correcto poniendoles un borde.
+					en el problema correcto poniendoles un borde. Es posible corregir también datos tipo texto,
+					recordemos que son aquellos que su valor está entre comillas, si por ejemplo, creamos un dato a =
+					"sube", se comparará con el dato del mismo nombre en el problema correcto. En el problema correcto
+					podemos poner más de una solución correcta si las separamos por comas, por ejempl a ="sube",
+					"crece".
+					Así cualquiera de esas dos palabras se considerarian correctas.
 				</p>
 
 				<p>El filtro "Mostrar" permite quedarnos únicamente con las variables principales.</p>
@@ -1311,70 +1316,106 @@
 					Pueden por lo tanto utlizarse para poner tareas o hacer exámenes.
 				</p>
 
-				<p> Para poder enviar una actividad debemos crear un problema y seleccionar el check "Enunciado"
-					que aparece en la propiedades generales del problema. Lo usual es incluir únicamente un texto con el
-					enunciado del problema y
-					aquellos datos/incógnitas que queramos facilitarle al alumno. Unicamente podrán crear enunciados los
-					usuarios de tipo "Profesor".
+				<p>Para poder poner actividades tu tipo de usuario debe ser "Profesor", si quieres convertir tu cuenta
+					de Estudiante en una cuenta de profesor debes
+					de enviar un correo solicitándolo a psolver@psolver.org.
+				</p>
+				<p>Desde la cuenta de profesor además de la lista de problemas puedes ver la lista de cursos y la lista
+					de tareas, usando el desplegable "Mostrar".
 				</p>
 
-				<p>Para que el alumno pueda realizar la actividad mandaremos el id del enunciado a los alumnos y
-					estos deberán usar el botón <svg viewBox="64 64 896 896" focusable="false" data-icon="edit"
-						width="1em" height="1em" fill="currentColor" aria-hidden="true">
+
+				<img class="ui bordered centered image" src="img/lista cursos.png" width="960" alt="Lista de cursos" />
+				<br />
+
+				<p>En la lista de cursos podremos crear y borrar nuevos cursos. Los cursos son listados de estudiantes
+					registrados en pSolver a los cuales podemos mandarles actividades para que las realicen. Si pulsamos
+					el botón de editar curso
+					<svg viewBox="64 64 896 896" focusable="false" data-icon="edit" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
 						<path
 							d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z">
 						</path>
-					</svg> "Nueva actividad" introduciendo el id del enunciado. Se creará en la cuenta del estudiante
-					una actividad que tiene las siguientes particularidades:</p>
+					</svg>
+					veremos la siguiente pantalla en la cual podremos cambiar el nombre y la descripción
+					del curso y añadir o borrar miembros de un curso usando el e-mail con el que se registraron los
+					estudiantes. También existe la posibilidad de que el alumno se registre él sólo si le enviamos el
+					ID del curso, utilizando el botón <svg viewBox="64 64 896 896" focusable="false" data-icon="team"
+						width="1em" height="1em" fill="currentColor" aria-hidden="true">
+						<path
+							d="M824.2 699.9a301.55 301.55 0 00-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 00-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 008 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 01612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 008-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 01-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 01612 612zM361.5 510.4c-.9-8.7-1.4-17.5-1.4-26.4 0-15.9 1.5-31.4 4.3-46.5.7-3.6-1.2-7.3-4.5-8.8-13.6-6.1-26.1-14.5-36.9-25.1a127.54 127.54 0 01-38.7-95.4c.9-32.1 13.8-62.6 36.3-85.6 24.7-25.3 57.9-39.1 93.2-38.7 31.9.3 62.7 12.6 86 34.4 7.9 7.4 14.7 15.6 20.4 24.4 2 3.1 5.9 4.4 9.3 3.2 17.6-6.1 36.2-10.4 55.3-12.4 5.6-.6 8.8-6.6 6.3-11.6-32.5-64.3-98.9-108.7-175.7-109.9-110.9-1.7-203.3 89.2-203.3 199.9 0 62.8 28.9 118.8 74.2 155.5-31.8 14.7-61.1 35-86.5 60.4-54.8 54.7-85.8 126.9-87.8 204a8 8 0 008 8.2h56.1c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5 29.4-29.4 65.4-49.8 104.7-59.7 3.9-1 6.5-4.7 6-8.7z">
+						</path>
+					</svg> que aparace en la barra de botones de la lista de problemas.
+				</p>
+
+				<img class="ui bordered centered image" src="img/editor cursos.png" width="960"
+					alt="Editor de cursos" />
+				<br />
+
+				<p>Posteriormente el profesor debe de crear la tarea que se mandará en forma de actividad al alumno.
+					Para ello dispone igualmente de la lista de tareas que puede crear, borrar o editar.</p>
+
+				<img class="ui bordered centered image" src="img/lista tareas.png" width="960" alt="Lista de tareas" />
+				<br />
+
+				<p>Editando la tarea podremos ponerle nombre, descripción, seleccionar el curso al que pertenece y
+					establecer el ID del problema que se usará como enunciado y el de la solución. Con el botón "Enviar
+					a todo el curso", se crea una actividad en las cuentas de cada uno de los miembros del curso,
+					copiando el contenido del problema "enunciado". También es posible que el alumno cree la actividad
+					por su cuenta, si le mandamos el ID de la tarea, utilizando el botón <svg viewBox="64 64 896 896"
+						focusable="false" data-icon="team" width="1em" height="1em" fill="currentColor"
+						aria-hidden="true">
+						<path
+							d="M824.2 699.9a301.55 301.55 0 00-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 00-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 008 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 01612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 008-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 01-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 01612 612zM361.5 510.4c-.9-8.7-1.4-17.5-1.4-26.4 0-15.9 1.5-31.4 4.3-46.5.7-3.6-1.2-7.3-4.5-8.8-13.6-6.1-26.1-14.5-36.9-25.1a127.54 127.54 0 01-38.7-95.4c.9-32.1 13.8-62.6 36.3-85.6 24.7-25.3 57.9-39.1 93.2-38.7 31.9.3 62.7 12.6 86 34.4 7.9 7.4 14.7 15.6 20.4 24.4 2 3.1 5.9 4.4 9.3 3.2 17.6-6.1 36.2-10.4 55.3-12.4 5.6-.6 8.8-6.6 6.3-11.6-32.5-64.3-98.9-108.7-175.7-109.9-110.9-1.7-203.3 89.2-203.3 199.9 0 62.8 28.9 118.8 74.2 155.5-31.8 14.7-61.1 35-86.5 60.4-54.8 54.7-85.8 126.9-87.8 204a8 8 0 008 8.2h56.1c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5 29.4-29.4 65.4-49.8 104.7-59.7 3.9-1 6.5-4.7 6-8.7z">
+						</path>
+					</svg> que aparace en la barra de botones de la lista de problemas.
+				</p>
+
+				<img class="ui bordered centered image" src="img/editor tareas.png" width="960"
+					alt="Editor de tareas" />
+				<br />
+
+
+
+				<p>Las actividades que los alumnos deben realizar son en realidad problemas que tiene las siguientes
+					particularidades:</p>
 				<ul>
 					<li>Únicamente permite copiar/pegar componentes desde la misma actividad.</li>
 					<li>No está permitido hacer copias ni ver la actividad por parte de terceros (son privados).</li>
 					<li>En la parte superior del problema se describe si la actividad está entregada o no, y en caso
 						afirmativo la fecha de entrega.</li>
-					<li>A la derecha del nombre del problema aparece un enlace para poder entregar el problema. Tras
-						entregar el problema ninguno de los cambios que el alumno realice se guardarán.
+					<li>A la derecha del nombre del problema aparece un enlace para poder entregar la actividad. Tras
+						entregar ninguno de los cambios que el alumno realice se guardarán.
 						Es decir, el problema aparecerá en el estado en el que se entregó cada vez que se reabra.
 					</li>
 				</ul>
 
-				<br />
 				<img class="ui bordered centered image" src="img/actividad sin entregar.png" width="960"
 					alt="Ejemplo de actividad sin entregar" />
+				<br />
 
+				<p> La figura anterior muestra la actividad cuando el alumno la inicia. El alumno debe de hacer el
+					problema prestando especial atención a crear
+					las incógnitas que el enunciado establece con el mismo nombre y unidad, ya que la corrección se
+					realizará comparando las incógnitas principales de la actividad y de la solución que el profesor
+					colocó en la tarea. En la siguiente figura se muestra la actividad realizada por alumno, con el
+					error de haber llamado &phi; a la variable &gamma;.
+				</p>
 				<br />
 				<img class="ui bordered centered image" src="img/actividad entregada.png" width="960"
 					alt="Ejemplo de actividad entregada" />
 
 				<br />
-				<p>El profesor creador del enunciado podrá ver la lista de actividades copiadas de su enunciado, o lo
-					que es lo
-					mismo, la lista de problemas hechos por los alumnos.
-					El profesor si podrá visualizar y modificar cada uno de las actividades realizados por los alumnos y
-					vinculados a su enunciado, usando el botón "
-					<svg viewBox="64 64 896 896" focusable="false" data-icon="unordered-list" width="1em" height="1em"
-						fill="currentColor" aria-hidden="true">
-						<path
-							d="M912 192H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM104 228a56 56 0 10112 0 56 56 0 10-112 0zm0 284a56 56 0 10112 0 56 56 0 10-112 0zm0 284a56 56 0 10112 0 56 56 0 10-112 0z">
-						</path>
-					</svg>
-					" que aparecerá en los enunciados.
+				<p>If we go back to the task and click on the “Update table” button, the list of the activities
+					performed by the students and the correction of the main variables will appear, showing whether they
+					are correct, incorrect or have not been found. By selecting a specific activity with the check in
+					the first column and using the button “View selected activity” we can see the student's activity.
+					Using the “Export to CSV” button below we download a file containing the table in a format
+					compatible with any spreadsheet.
 				</p>
-				<br />
-				<img class="ui bordered centered image" src="img/actividad original.png" width="960"
-					alt="Lista de actividades" />
-				<br />
-				<p>
-					El listado de las actividades realizadas por los alumnos aparecerá en una tabla como la de la
-					siguiente figura. Con el vínculo "Ver prob." podremos ver y modificar la actividad del alumnos.
-				</p>
-				<p>Si introducimos el ID del problema correcto y pulsamos el botón "corregir",
-					podremos ver los valores que aparecen en las columnas de corrección para
-					todas las actividades de los alumnos. En estas columnas aparecerán los resultados
-					únicamente de las variables principales, mostrando si son correctas, incorrectas o no han sido
-					encontradas.</p>
-				<br />
-				<img class="ui bordered centered image" src="img/listado de actividades.png" width="960"
-					alt="Lista de actividades" />
+
+				<img class="ui bordered centered image" src="img/listado de actividades_en.png" width="960"
+					alt="Activities list" />
 
 				<br />
 			</div>

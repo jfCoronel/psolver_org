@@ -31,7 +31,7 @@
 
 		<div class="ui main container">
 			<h1>User Manual</h1>
-			<h4>Updated to version 4.26</h4>
+			<h4>Updated to version 4.30</h4>
 
 			<h2>Index</h2>
 			<ol style="font-size: 1.2rem; line-height: 1.3">
@@ -229,7 +229,7 @@
 
 				<p>The "Filter" drop-down menu allows you to filter by category, so that only the problems of the
 					categories selected by the user will be shown in the list, or to make a filter according to the
-					type of problems: regular, statement or activity (see section "Activities").</p>
+					type of problems: regular, statement, solutions or activity (see section "Activities").</p>
 
 				<p>The other buttons have the following functions:</p>
 
@@ -251,13 +251,13 @@
 						</svg>: Log out user.
 					</li>
 					<li>
-						<svg viewBox="64 64 896 896" focusable="false" data-icon="edit" width="1em" height="1em"
+						<svg viewBox="64 64 896 896" focusable="false" data-icon="team" width="1em" height="1em"
 							fill="currentColor" aria-hidden="true">
 							<path
-								d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z">
+								d="M824.2 699.9a301.55 301.55 0 00-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 00-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 008 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 01612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 008-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 01-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 01612 612zM361.5 510.4c-.9-8.7-1.4-17.5-1.4-26.4 0-15.9 1.5-31.4 4.3-46.5.7-3.6-1.2-7.3-4.5-8.8-13.6-6.1-26.1-14.5-36.9-25.1a127.54 127.54 0 01-38.7-95.4c.9-32.1 13.8-62.6 36.3-85.6 24.7-25.3 57.9-39.1 93.2-38.7 31.9.3 62.7 12.6 86 34.4 7.9 7.4 14.7 15.6 20.4 24.4 2 3.1 5.9 4.4 9.3 3.2 17.6-6.1 36.2-10.4 55.3-12.4 5.6-.6 8.8-6.6 6.3-11.6-32.5-64.3-98.9-108.7-175.7-109.9-110.9-1.7-203.3 89.2-203.3 199.9 0 62.8 28.9 118.8 74.2 155.5-31.8 14.7-61.1 35-86.5 60.4-54.8 54.7-85.8 126.9-87.8 204a8 8 0 008 8.2h56.1c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5 29.4-29.4 65.4-49.8 104.7-59.7 3.9-1 6.5-4.7 6-8.7z">
 							</path>
-						</svg>: New activity: Request the ID of a "Statement" by creating an activity from it (see
-						section "Activities").
+						</svg>: Courses and activities: Requests the ID of a course to be able to register in it or the
+						ID of a task to create an activity (see section “Activities”).
 					</li>
 					<li>
 						<svg viewBox="64 64 896 896" focusable="false" data-icon="import" width="1em" height="1em"
@@ -352,10 +352,8 @@
 				<br>
 
 				<p>Using this bar we can change the name, description, category and page size/orientation of the pages.
-					With the "private"
-					check we block the problem, so that the problem cannot be seen or copied by others.
-					We can convert the problem into a "Statement" to be sent to the students, only for "Teacher" users
-					(see "Activities" section).
+					With the "private" check we block the problem, so that the problem cannot be seen or copied by
+					others.
 				</p>
 				<p>If we want to create a new type of category we must do it using the drop-down menu "Create
 					new category", where we can choose a name and colour of the category and then click on the "Add"
@@ -1170,7 +1168,11 @@
 				<p>The table will list the variables (data, unknowns, fluids and humid airs) of the correct problem and
 					compare them with the variables of the proper problem. The variables of the correct problem have two
 					levels: Principal and Secondary. The primary variables are the fundamental unknowns of the problem
-					and are marked in the correct problem by putting a border around them.
+					and are marked in the correct problem by putting a border around them. It is also possible to
+					correct text type data, remember that they are those whose value is in quotation marks, if for
+					example, we create a data a =“rises”, it will be compared with the data of the same name in the
+					correct problem. In the correct problem we can put more than one correct solution if we separate
+					them by commas, for example a =“rises”, “grows”.
 				</p>
 
 				<p>The "Show" filter allows us to keep only the primary variables.</p>
@@ -1252,74 +1254,103 @@
 				<p>Activities are a type of problem designed to be sent to students for them to complete individually.
 					They can therefore be used to set homework or take exams.
 				</p>
+				<p>In order to set up activities your user type must be “Teacher”, if you want to convert your Student
+					account into a teacher account you must send an email requesting it to psolver@psolver.org.</p>
 
-				<p>In order to submit an activity, we must create a problem and select the "Statement" checkbox in the
-					general properties of the problem. It is usual to include only a text with the problem statement and
-					those data/unknowns that we want to provide the student with. Only users of type "Teacher" will be
-					able to create statements.
-				</p>
+				<p>From the teacher account in addition to the list of problems you can view the list of courses and the
+					list of tasks, using the “Show” drop-down menu.</p>
 
-				<p>So that the student can carry out our activity, we will send the id of the statement to the students
-					and they will have to use <svg viewBox="64 64 896 896" focusable="false" data-icon="edit"
-						width="1em" height="1em" fill="currentColor" aria-hidden="true">
+				<img class="ui bordered centered image" src="img/lista cursos_en.png" width="960" alt="Courses list" />
+				<br />
+
+				<p>In the course list you can create and delete new courses. Courses are lists of students registered in
+					pSolver to whom we can send activities to perform. If we click the edit course button
+					<svg viewBox="64 64 896 896" focusable="false" data-icon="edit" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
 						<path
 							d="M257.7 752c2 0 4-.2 6-.5L431.9 722c2-.4 3.9-1.3 5.3-2.8l423.9-423.9a9.96 9.96 0 000-14.1L694.9 114.9c-1.9-1.9-4.4-2.9-7.1-2.9s-5.2 1-7.1 2.9L256.8 538.8c-1.5 1.5-2.4 3.3-2.8 5.3l-29.5 168.2a33.5 33.5 0 009.4 29.8c6.6 6.4 14.9 9.9 23.8 9.9zm67.4-174.4L687.8 215l73.3 73.3-362.7 362.6-88.9 15.7 15.6-89zM880 836H144c-17.7 0-32 14.3-32 32v36c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-36c0-17.7-14.3-32-32-32z">
 						</path>
-					</svg> "New activity" buttom entering the id of the statement. An activity will be created in the
-					student's account with the following particularities:
+					</svg>
+					we will see the following screen in which we can change the name and description of the course and
+					add or delete members of a course using the e-mail with which the students registered. There is also
+					the possibility for the student to register by himself if we send him the course ID, using the
+					button <svg viewBox="64 64 896 896" focusable="false" data-icon="team" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
+						<path
+							d="M824.2 699.9a301.55 301.55 0 00-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 00-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 008 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 01612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 008-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 01-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 01612 612zM361.5 510.4c-.9-8.7-1.4-17.5-1.4-26.4 0-15.9 1.5-31.4 4.3-46.5.7-3.6-1.2-7.3-4.5-8.8-13.6-6.1-26.1-14.5-36.9-25.1a127.54 127.54 0 01-38.7-95.4c.9-32.1 13.8-62.6 36.3-85.6 24.7-25.3 57.9-39.1 93.2-38.7 31.9.3 62.7 12.6 86 34.4 7.9 7.4 14.7 15.6 20.4 24.4 2 3.1 5.9 4.4 9.3 3.2 17.6-6.1 36.2-10.4 55.3-12.4 5.6-.6 8.8-6.6 6.3-11.6-32.5-64.3-98.9-108.7-175.7-109.9-110.9-1.7-203.3 89.2-203.3 199.9 0 62.8 28.9 118.8 74.2 155.5-31.8 14.7-61.1 35-86.5 60.4-54.8 54.7-85.8 126.9-87.8 204a8 8 0 008 8.2h56.1c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5 29.4-29.4 65.4-49.8 104.7-59.7 3.9-1 6.5-4.7 6-8.7z">
+						</path>
+					</svg> that appears in the button bar of the problem list.
 				</p>
+
+				<img class="ui bordered centered image" src="img/editor cursos_en.png" width="960"
+					alt="courses editor" />
+				<br />
+
+				<p>The teacher must then create the task that will be sent as an activity to the student. For this
+					purpose, he/she also has a list of tasks that can be created, deleted or edited.</p>
+
+				<img class="ui bordered centered image" src="img/lista tareas_en.png" width="960" alt="Tasks list" />
+				<br />
+
+
+				<p>By editing the assignment we can name it, give it a description, select the course to which it
+					belongs and set the ID of the problem to be used as a statement and the ID of the solution. With the
+					“Send to the whole course” button, an activity is created in the accounts of each of the course
+					members, copying the content of the problem “statement”. It is also possible for the student to
+					create the activity on his/her own, if we send him/her the task ID, using the button <svg
+						viewBox="64 64 896 896" focusable="false" data-icon="team" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
+						<path
+							d="M824.2 699.9a301.55 301.55 0 00-86.4-60.4C783.1 602.8 812 546.8 812 484c0-110.8-92.4-201.7-203.2-200-109.1 1.7-197 90.6-197 200 0 62.8 29 118.8 74.2 155.5a300.95 300.95 0 00-86.4 60.4C345 754.6 314 826.8 312 903.8a8 8 0 008 8.2h56c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5A226.62 226.62 0 01612 684c60.9 0 118.2 23.7 161.3 66.8C814.5 792 838 846.3 840 904.3c.1 4.3 3.7 7.7 8 7.7h56a8 8 0 008-8.2c-2-77-33-149.2-87.8-203.9zM612 612c-34.2 0-66.4-13.3-90.5-37.5a126.86 126.86 0 01-37.5-91.8c.3-32.8 13.4-64.5 36.3-88 24-24.6 56.1-38.3 90.4-38.7 33.9-.3 66.8 12.9 91 36.6 24.8 24.3 38.4 56.8 38.4 91.4 0 34.2-13.3 66.3-37.5 90.5A127.3 127.3 0 01612 612zM361.5 510.4c-.9-8.7-1.4-17.5-1.4-26.4 0-15.9 1.5-31.4 4.3-46.5.7-3.6-1.2-7.3-4.5-8.8-13.6-6.1-26.1-14.5-36.9-25.1a127.54 127.54 0 01-38.7-95.4c.9-32.1 13.8-62.6 36.3-85.6 24.7-25.3 57.9-39.1 93.2-38.7 31.9.3 62.7 12.6 86 34.4 7.9 7.4 14.7 15.6 20.4 24.4 2 3.1 5.9 4.4 9.3 3.2 17.6-6.1 36.2-10.4 55.3-12.4 5.6-.6 8.8-6.6 6.3-11.6-32.5-64.3-98.9-108.7-175.7-109.9-110.9-1.7-203.3 89.2-203.3 199.9 0 62.8 28.9 118.8 74.2 155.5-31.8 14.7-61.1 35-86.5 60.4-54.8 54.7-85.8 126.9-87.8 204a8 8 0 008 8.2h56.1c4.3 0 7.9-3.4 8-7.7 1.9-58 25.4-112.3 66.7-153.5 29.4-29.4 65.4-49.8 104.7-59.7 3.9-1 6.5-4.7 6-8.7z">
+						</path>
+					</svg> that appears in the button bar of the problem list.
+				</p>
+
+				<img class="ui bordered centered image" src="img/editor tareas_en.png" width="960" alt="Tasks editor" />
+				<br />
+
+				<p>The activities to be performed by the students are actually problems that have the following
+					particularities:</p>
 				<ul>
 					<li>It only allows copy/paste components from the same activity.</li>
-					<li>Copying and viewing of the activity by third parties is not permitted (private problem).</li>
-					<li>At the top of the problem there is a description of whether the activity is delivered or not,
-						and if
-						so, the delivery date.</li>
-					<li>To the right of the problem name there is a link to submit the problem. After submitting the
-						problem,
-						none of the changes made by the student will be saved. That is, the problem will appear in the
-						state in which it was submitted each time it is reopened.
+					<li>Third parties are not allowed to make copies or view the activity (they are private).</li>
+					<li>The top of the problem describes whether the activity is delivered or not, and if so, the
+						delivery date.</li>
+					<li>To the right of the problem name is a link to submit the activity. After submission, none of the
+						changes made by the student will be saved. That is, the problem will appear in the state in
+						which it was submitted each time it is reopened.
 					</li>
 				</ul>
 
-				<br />
 				<img class="ui bordered centered image" src="img/actividad sin entregar_en.png" width="960"
-					alt="Example of an undelivered activity" />
+					alt="Activity not delivered" />
+				<br />
 
+				<p> The figure above shows the activity when the student initiates it. The student must do the problem
+					paying special attention to create the unknowns that the statement establishes with the same name
+					and unit, since the correction will be made by comparing the main unknowns of the activity and the
+					solution that the teacher placed in the task. The following figure shows the activity performed by
+					the student, with the error of having called &phi; to the variable &gamma;.
+				</p>
 				<br />
 				<img class="ui bordered centered image" src="img/actividad entregada_en.png" width="960"
-					alt="Example of delivered activity" />
+					alt="Activity delivered" />
 
 				<br />
-				<p>The author of the statement will be able to see the list of activities copied from
-					his/her statement, or in other words, the list of activities done by the students. The teacher will
-					be able to view and modify each of the activities made by the students and linked to their
-					statement, using the button "
-					<svg viewBox="64 64 896 896" focusable="false" data-icon="unordered-list" width="1em" height="1em"
-						fill="currentColor" aria-hidden="true">
-						<path
-							d="M912 192H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm0 284H328c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h584c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zM104 228a56 56 0 10112 0 56 56 0 10-112 0zm0 284a56 56 0 10112 0 56 56 0 10-112 0zm0 284a56 56 0 10112 0 56 56 0 10-112 0z">
-						</path>
-					</svg>
-					" that will appear in all the statements.
+				<p>Si volvemos a la tarea y pulsamos el botón "Actualizar tabla", aparecerá el listado de las
+					actividades realizadas por los alumnos y la corrección de las variables principales, mostrando si
+					son correctas, incorrectas o no han sido
+					encontradas. Seleccionando una actividad concreta con el check de la primera columna y usando el
+					botón "Ver actividad seleccionada" podremos ver la actividad del alumno. Usando el botón inferior
+					"Exportar a CSV" descargamos un archivo que contiene la tabla en formato compatible con cualquier
+					hoja de cálculo.
 				</p>
-				<br />
-				<img class="ui bordered centered image" src="img/actividad original_en.png" width="960"
-					alt="Activity in list" />
-				<br />
-				<p>
-					The list of the activities carried out by the students will appear in a table like the one in the
-					following figure. With the link "Go prob." you can view and modify the student's
-					problem.
-				</p>
-				<p>If we enter the correct problem ID and click on the "correct" button, we will be able to see the
-					values that appear in the correction columns for all the students' activities. In these columns the
-					results will appear only for the main variables, showing whether they are correct, incorrect or not
-					found.</p>
-				<br />
-				<img class="ui bordered centered image" src="img/listado de actividades_en.png" width="960"
-					alt="Activity list" />
+
+				<img class="ui bordered centered image" src="img/listado de actividades.png" width="960"
+					alt="Lista de actividades" />
 
 				<br />
+
 			</div>
 
 		</div>
