@@ -1279,8 +1279,12 @@
 				<img class="ui bordered centered image" src="img/lista cursos_en.png" width="960" alt="Courses list" />
 				<br />
 
-				<p>In the course list you can create and delete new courses. Courses are lists of students registered in
-					pSolver to whom we can send activities to perform. If we click the edit course button
+				<p>In the course list you can create, duplicate and delete courses. Courses are lists of students registered in
+					pSolver to whom we can send activities to perform. Using button <svg viewBox="64 64 896 896" focusable="false" data-icon="import" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M888.3 757.4h-53.8c-4.2 0-7.7 3.5-7.7 7.7v61.8H197.1V197.1h629.8v61.8c0 4.2 3.5 7.7 7.7 7.7h53.8c4.2 0 7.7-3.4 7.7-7.7V158.7c0-17-13.7-30.7-30.7-30.7H158.7c-17 0-30.7 13.7-30.7 30.7v706.6c0 17 13.7 30.7 30.7 30.7h706.6c17 0 30.7-13.7 30.7-30.7V765.1c0-4.3-3.5-7.7-7.7-7.7zM902 476H588v-76c0-6.7-7.8-10.5-13-6.3l-141.9 112a8 8 0 000 12.6l141.9 112c5.3 4.2 13 .4 13-6.3v-76h314c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8z"></path></svg>
+					we can load an external course that has been created by another teacher, 
+					this will allow us to set tasks on courses created by other teachers.
+				</p>	
+				<p>If we click the edit course button
 					<svg viewBox="64 64 896 896" focusable="false" data-icon="edit" width="1em" height="1em"
 						fill="currentColor" aria-hidden="true">
 						<path
@@ -1303,7 +1307,7 @@
 				<br />
 
 				<p>The teacher must then create the task that will be sent as an activity to the student. For this
-					purpose, he/she also has a list of tasks that can be created, deleted or edited.</p>
+					purpose, he/she also has a list of tasks that can be created, duplicated, deleted or edited.</p>
 
 				<img class="ui bordered centered image" src="img/lista tareas_en.png" width="960" alt="Tasks list" />
 				<br />
@@ -1312,7 +1316,8 @@
 				<p>By editing the assignment we can name it, give it a description, select the course to which it
 					belongs and set the ID of the problem to be used as a statement and the ID of the solution. With the
 					“Send to the whole course” button, an activity is created in the accounts of each of the course
-					members, copying the content of the problem “statement”. It is also possible for the student to
+					members, copying the content of the problem “statement”, the system checks if the student already
+					has that activity so as not to duplicate it. It is also possible for the student to
 					create the activity on his/her own, if we send him/her the task ID, using the button <svg
 						viewBox="64 64 896 896" focusable="false" data-icon="team" width="1em" height="1em"
 						fill="currentColor" aria-hidden="true">
@@ -1324,6 +1329,8 @@
 
 				<img class="ui bordered centered image" src="img/editor tareas_en.png" width="960" alt="Tasks editor" />
 				<br />
+				<p>Initially the activities do not include the possibility for the student to self-correct, 
+					but using the button "Activate self-correction" we can enable this possibility for all students in the activity table.</p>
 
 				<p>The activities to be performed by the students are actually problems that have the following
 					particularities:</p>
@@ -1356,7 +1363,7 @@
 				<p>If we go back to the task and click on the “Update table” button, the list of the activities
 					performed by the students and the correction of the main variables will appear, showing whether they
 					are correct, incorrect or have not been found. By selecting a specific activity with the check in
-					the first column and using the button “View selected activity” we can see the student's activity.
+					the first column and using the button “See selected activity” we can see the student's activity.
 					Using the “Export to CSV” button below we download a file containing the table in a format
 					compatible with any spreadsheet.
 				</p>
