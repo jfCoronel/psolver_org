@@ -175,7 +175,7 @@
     "bbot_nueva_tabla": "Tabla",
     "bbot_nueva_grafica": "Gráfica",
     "bbot_nueva_seccion": "Sección",
-    "bbot_tag_seccion": "Sección ",
+    "bbot_tag_seccion": "Sec. ",
     "bbot_tt_configuracion": "Configuración",
     "bbot_tt_eliminar": "Eliminar [sup]",
     "bbot_tt_activar": "Activar/Desactivar",
@@ -474,5 +474,8 @@
     "dlg_import_curso_titulo": "Cargar curso externo",
     "dlg_import_curso_id": "ID curso a cargar:",
     "tbl_actividad_activar_autocorreccion": "Activar autocorrección",
-    "edit_tarea_activar_aurtocorreccion_men": "Autocorrección activada para todos las actividades de la tabla"
+    "edit_tarea_activar_aurtocorreccion_men": "Autocorrección activada para todos las actividades de la tabla",
+    "for_tab_lbl_recalcular": "Recalcular tabla al resolver",
+    "bbot_tt_seccion": "Sección ",
+    "bbot_tt_global": " Global"
 }

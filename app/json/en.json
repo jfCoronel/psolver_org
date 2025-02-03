@@ -175,7 +175,7 @@
     "bbot_nueva_tabla": "Table",
     "bbot_nueva_grafica": "Graph",
     "bbot_nueva_seccion": "Section",
-    "bbot_tag_seccion": "Section ",
+    "bbot_tag_seccion": "Sec. ",
     "bbot_tt_configuracion": "Configuration",
     "bbot_tt_eliminar": "Delete [sup]",
     "bbot_tt_activar": "Activate/Deactivate",
@@ -475,5 +475,8 @@
     "dlg_import_curso_titulo": "Upload external course",
     "dlg_import_curso_id": "Course ID to be uploaded:",
     "tbl_actividad_activar_autocorreccion": "Activate self-correction",
-    "edit_tarea_activar_aurtocorreccion_men": "Self-correction enabled for all table activities"
+    "edit_tarea_activar_aurtocorreccion_men": "Self-correction enabled for all table activities",
+    "for_tab_lbl_recalcular": "Recalculate table when solving",
+    "bbot_tt_seccion": "Section ",
+    "bbot_tt_global": " Global"
 }
