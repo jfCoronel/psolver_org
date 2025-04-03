@@ -478,5 +478,8 @@
     "edit_tarea_activar_aurtocorreccion_men": "Self-correction enabled for all table activities",
     "for_tab_lbl_recalcular": "Recalculate table when solving",
     "bbot_tt_seccion": "Section ",
-    "bbot_tt_global": " Global"
+    "bbot_tt_global": " Global",
+    "tbl_actividad_numero": "Nº: ",
+    "texto_simbolo_no_encontrado": "_Symbol not found_",
+    "texto_unidad_no_encontrada": "_Unit not found_"
 }

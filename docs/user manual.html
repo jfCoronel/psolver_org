@@ -553,6 +553,15 @@
 
 				<img class="ui bordered centered image" src="img/Editar texto_en.png" width="960" alt="Text edit" />
 				<br>
+				<p>If we add a variable name between ##, for example ## x_1 ## will be replaced by its value 
+					if this variable corresponds to a Data, an Unknown, a Fluid or a Humid air. 
+					So, for example, if x_1 is a data worth 2.34 m/s, the text will print “2.34 m/s”. For the data it 
+					will always include the value and the unit without changing the unit, 
+					and for the unknowns it will include the value and the unit already changed, if this change exists.</p>
+				
+				<p>In the case that we want to force a data or an unknown the unit to be used,
+					we must add the desired unit between square brackets. For example: ## T_1 [K] ## 
+					will look for the value of T_1 in K whenever this unit is the original or the modified unit.</p>
 
 				<p><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="edit" width="1em" height="1em"
 						fill="currentColor" aria-hidden="true">
@@ -898,6 +907,11 @@
 						of problem variables.
 					</li>
 				</ul>
+
+				<p>The data specified by the user is assumed to be unchanged, 
+					the unit change will be applied for each data before solving the problem. 
+					The unknowns, Fluids and Humid Airs will be displayed in the table in their final unit 
+					once modified, if there is a unit change.</p>
 
 				<p>Once all the columns have been defined, click on the "Calculate" button to obtain the values of all
 					the rows, solving the problem as many times as we have rows. If we activate the check 

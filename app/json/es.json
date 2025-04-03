@@ -477,5 +477,8 @@
     "edit_tarea_activar_aurtocorreccion_men": "Autocorrección activada para todos las actividades de la tabla",
     "for_tab_lbl_recalcular": "Recalcular tabla al resolver",
     "bbot_tt_seccion": "Sección ",
-    "bbot_tt_global": " Global"
+    "bbot_tt_global": " Global",
+    "tbl_actividad_numero": "Nº: ",
+    "texto_simbolo_no_encontrado": "_Símbolo no encontrado_",
+    "texto_unidad_no_encontrada": "_Unidad no encontrada_"
 }
