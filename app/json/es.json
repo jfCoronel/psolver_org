@@ -184,7 +184,7 @@
     "bbot_tt_copiar": "Copiar [ctrl/cmd + c]",
     "bbot_tt_pegar": "Pegar [ctrl/cmd + v]",
     "bbot_tt_reemplazar_simbolo": "Reemplazar símbolo",
-    "bbot_tt_resolver": "Resolver [r]",
+    "bbot_tt_resolver": "Resolver [r, R: Todas las secciones]",
     "bbot_tt_valores_iniciales": "Resultados a valores iniciales",
     "bbot_tt_buscar_incognitas": "Buscar incógnitas [b]",
     "bbot_tt_vista_tabular": "Vista Tabular",
