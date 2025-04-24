@@ -481,5 +481,7 @@
     "bbot_tt_global": " Global",
     "tbl_actividad_numero": "Nº: ",
     "texto_simbolo_no_encontrado": "_Symbol not found_",
-    "texto_unidad_no_encontrada": "_Unit not found_"
+    "texto_unidad_no_encontrada": "_Unit not found_",
+    "dialogo_deshacer_titulo": "Undo",
+    "msg_no_acciones_a_deshacer": "No actions to undo"
 }
