@@ -483,5 +483,15 @@
     "texto_simbolo_no_encontrado": "_Symbol not found_",
     "texto_unidad_no_encontrada": "_Unit not found_",
     "dialogo_deshacer_titulo": "Undo",
-    "msg_no_acciones_a_deshacer": "No actions to undo"
+    "msg_no_acciones_a_deshacer": "No actions to undo",
+    "bbot_nueva_cuestion": "Question",
+    "for_cuestion_titulo": "QUESTION:",
+    "for_tipo_cuestion": "Question type",
+    "tipo_cuestion_texto": "Text",
+    "tipo_cuestion_lista": "Options list",
+    "for_ancho_caja": "Width text box [px]",
+    "vis_tab_tipo_cuestion": "Question type",
+    "vis_tab_opc_cuestion": "Questions",
+    "Cuestion": "Question",
+    "for_cuestion_opciones": "Options list"
 }

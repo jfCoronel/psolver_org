@@ -482,5 +482,15 @@
     "texto_simbolo_no_encontrado": "_Símbolo no encontrado_",
     "texto_unidad_no_encontrada": "_Unidad no encontrada_",
     "dialogo_deshacer_titulo": "Deshacer",
-    "msg_no_acciones_a_deshacer": "No hay acciones a deshacer"
+    "msg_no_acciones_a_deshacer": "No hay acciones a deshacer",
+    "bbot_nueva_cuestion": "Cuestión",
+    "for_cuestion_titulo": "CUESTIÓN:",
+    "for_tipo_cuestion": "Tipo de cuestión",
+    "tipo_cuestion_texto": "Texto",
+    "tipo_cuestion_lista": "Lista opciones",
+    "for_ancho_caja": "Ancho caja texto [px]",
+    "vis_tab_tipo_cuestion": "Tipo de cuestión",
+    "vis_tab_opc_cuestion": "Cuestiones",
+    "Cuestion": "Cuestión",
+    "for_cuestion_opciones": "Lista de opciones"
 }

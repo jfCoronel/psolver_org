@@ -518,7 +518,8 @@
 							d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z">
 						</path>
 					</svg>
-					, when we leave the mouse over it we can see the name of the registered user, and on the left side the button
+					, when we leave the mouse over it we can see the name of the registered user, and on the left side
+					the button
 					<svg viewBox="64 64 896 896" focusable="false" data-icon="arrow-left" width="1em" height="1em"
 						fill="currentColor" aria-hidden="true">
 						<path
@@ -553,15 +554,23 @@
 
 				<img class="ui bordered centered image" src="img/Editar texto_en.png" width="960" alt="Text edit" />
 				<br>
-				<p>If we add a variable name between ??, for example ?? x_1 ?? will be replaced by its value 
-					if this variable corresponds to a Data, an Unknown, a Fluid or a Humid air. 
-					So, for example, if x_1 is a data worth 2.34 m/s, the text will print “2.34 m/s”. For the data it 
-					will always include the value and the unit without changing the unit, 
-					and for the unknowns it will include the value and the unit already changed, if this change exists.</p>
-				
+				<p>If we add a variable name between ??, for example ?? x_1 ?? will be replaced by its value
+					if this variable corresponds to a Data, an Unknown, a Fluid or a Humid air.
+					So, for example, if x_1 is a data worth 2.34 m/s, the text will print “2.34 m/s”. For the data it
+					will always include the value and the unit without changing the unit,
+					and for the unknowns it will include the value and the unit already changed, if this change exists.
+				</p>
+
 				<p>In the case that we want to force a data or an unknown the unit to be used,
-					we must add the desired unit between square brackets. For example: ?? T_1 [K] ?? 
+					we must add the desired unit between square brackets. For example: ?? T_1 [K] ??
 					will look for the value of T_1 in K whenever this unit is the original or the modified unit.</p>
+
+				<p>We can add text boxes or drop-down lists using references to a previously created “Question” component. 
+					To do this we must write the symbol of the question component between @@, for example @@ q_1 @@ will be 
+					replaced by a text box or a drop-down list (depending on the type of question), 
+					which can be filled in by the student. 
+					The purpose of this use of questions is to create activities with questions for the students to fill in.
+					</p>
 
 				<p><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="edit" width="1em" height="1em"
 						fill="currentColor" aria-hidden="true">
@@ -653,13 +662,13 @@
 				<p>The three options for inserting images are chosen in the "Type" property:</p>
 				<ul>
 					<li>URL address: For this option in the "link" we must include the URL address where the image we
-						want to show is located. We recommend using the application <a href="https:\\postimages.org" target="_blank"">postimages.org</a> 
+						want to show is located. We recommend using the application <a href="https:\\postimages.org"
+							target="_blank"">postimages.org</a> 
 						to store images for free and without registration.
 					</li>
-					<li>Google Drive: If the image is in our Google Drive we must share it and put the option "Anyone
-						with the link can see the image". Copy the link provided by Google Drive and paste it into the
-						"link" field.
-					</li>
+					<li>Google Drive: If the image is in our Google Drive we must share it and put the option " Anyone with the link
+							can see the image". Copy the link provided by Google Drive and paste it into the "link"
+							field. </li>
 					<li>Dropbox: In the case of having the image stored in Dropbox, from Dropbox we create a link so
 						that "Anyone who has the link can see the file". We copy the link provided by Dropbox and paste
 						it into the "link" property.
@@ -752,6 +761,21 @@
 					using the same symbols in different sections of the same problem. It will be explained in more
 					detail in the section "Sections".
 				</p>
+
+				<p><svg viewBox="64 64 896 896" focusable="false" data-icon="form" width="1em" height="1em"
+					fill="currentColor" aria-hidden="true">
+					<path
+						d="M904 512h-56c-4.4 0-8 3.6-8 8v320H184V184h320c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V520c0-4.4-3.6-8-8-8z">
+					</path>
+					<path
+						d="M355.9 534.9L354 653.8c-.1 8.9 7.1 16.2 16 16.2h.4l118-2.9c2-.1 4-.9 5.4-2.3l415.9-415c3.1-3.1 3.1-8.2 0-11.3L785.4 114.3c-1.6-1.6-3.6-2.3-5.7-2.3s-4.1.8-5.7 2.3l-415.8 415a8.3 8.3 0 00-2.3 5.6zm63.5 23.6L779.7 199l45.2 45.1-360.5 359.7-45.7 1.1.7-46.4z">
+					</path>
+				</svg>
+				Questions: This component allows questions to be added to the problem. 
+				Questions can only be created by “Teacher” type users. 
+				Questions define text boxes or drop-down lists that can later be included in the “Text” components as 
+				fillable questions by the student.
+			</p>
 
 				<h3>Quick edit</h3>
 
@@ -908,14 +932,15 @@
 					</li>
 				</ul>
 
-				<p>The data specified by the user is assumed to be unchanged, 
-					the unit change will be applied for each data before solving the problem. 
-					The unknowns, Fluids and Humid Airs will be displayed in the table in their final unit 
+				<p>The data specified by the user is assumed to be unchanged,
+					the unit change will be applied for each data before solving the problem.
+					The unknowns, Fluids and Humid Airs will be displayed in the table in their final unit
 					once modified, if there is a unit change.</p>
 
 				<p>Once all the columns have been defined, click on the "Calculate" button to obtain the values of all
-					the rows, solving the problem as many times as we have rows. If we activate the check 
-					“Recalculate table when solving” the table will be recalculated each time we solve the problem (or the section where the table is located).
+					the rows, solving the problem as many times as we have rows. If we activate the check
+					“Recalculate table when solving” the table will be recalculated each time we solve the problem (or
+					the section where the table is located).
 					The button "Export to CSV" allows us to
 					export the values of the table to a file that we can later use in our computer.
 				</p>
@@ -1295,11 +1320,18 @@
 				<img class="ui bordered centered image" src="img/lista cursos_en.png" width="960" alt="Courses list" />
 				<br />
 
-				<p>In the course list you can create, duplicate and delete courses. Courses are lists of students registered in
-					pSolver to whom we can send activities to perform. Using button <svg viewBox="64 64 896 896" focusable="false" data-icon="import" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M888.3 757.4h-53.8c-4.2 0-7.7 3.5-7.7 7.7v61.8H197.1V197.1h629.8v61.8c0 4.2 3.5 7.7 7.7 7.7h53.8c4.2 0 7.7-3.4 7.7-7.7V158.7c0-17-13.7-30.7-30.7-30.7H158.7c-17 0-30.7 13.7-30.7 30.7v706.6c0 17 13.7 30.7 30.7 30.7h706.6c17 0 30.7-13.7 30.7-30.7V765.1c0-4.3-3.5-7.7-7.7-7.7zM902 476H588v-76c0-6.7-7.8-10.5-13-6.3l-141.9 112a8 8 0 000 12.6l141.9 112c5.3 4.2 13 .4 13-6.3v-76h314c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8z"></path></svg>
-					we can load an external course that has been created by another teacher, 
+				<p>In the course list you can create, duplicate and delete courses. Courses are lists of students
+					registered in
+					pSolver to whom we can send activities to perform. Using button <svg viewBox="64 64 896 896"
+						focusable="false" data-icon="import" width="1em" height="1em" fill="currentColor"
+						aria-hidden="true">
+						<path
+							d="M888.3 757.4h-53.8c-4.2 0-7.7 3.5-7.7 7.7v61.8H197.1V197.1h629.8v61.8c0 4.2 3.5 7.7 7.7 7.7h53.8c4.2 0 7.7-3.4 7.7-7.7V158.7c0-17-13.7-30.7-30.7-30.7H158.7c-17 0-30.7 13.7-30.7 30.7v706.6c0 17 13.7 30.7 30.7 30.7h706.6c17 0 30.7-13.7 30.7-30.7V765.1c0-4.3-3.5-7.7-7.7-7.7zM902 476H588v-76c0-6.7-7.8-10.5-13-6.3l-141.9 112a8 8 0 000 12.6l141.9 112c5.3 4.2 13 .4 13-6.3v-76h314c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8z">
+						</path>
+					</svg>
+					we can load an external course that has been created by another teacher,
 					this will allow us to set tasks on courses created by other teachers.
-				</p>	
+				</p>
 				<p>If we click the edit course button
 					<svg viewBox="64 64 896 896" focusable="false" data-icon="edit" width="1em" height="1em"
 						fill="currentColor" aria-hidden="true">
@@ -1345,8 +1377,9 @@
 
 				<img class="ui bordered centered image" src="img/editor tareas_en.png" width="960" alt="Tasks editor" />
 				<br />
-				<p>Initially the activities do not include the possibility for the student to self-correct, 
-					but using the button "Activate self-correction" we can enable this possibility for all students in the activity table.</p>
+				<p>Initially the activities do not include the possibility for the student to self-correct,
+					but using the button "Activate self-correction" we can enable this possibility for all students in
+					the activity table.</p>
 
 				<p>The activities to be performed by the students are actually problems that have the following
 					particularities:</p>
