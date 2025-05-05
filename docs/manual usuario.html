@@ -31,7 +31,7 @@
 
 		<div class="ui main container">
 			<h1>Manual de usuario</h1>
-			<h4>Actualizado a la versión 4.31</h4>
+			<h4>Actualizado a la versión 4.40</h4>
 
 			<h2>Índice</h2>
 			<ol style="font-size: 1.2rem; line-height: 1.3">
@@ -602,9 +602,11 @@
 					original o la modificada.</p>
 
 				<p>Podemos añadir cuadros de texto o listas desplegables usando referencias a un componente "Cuestión"
-					previamente creado. Para ello debemos escribir el símbolo del componente cuestión entre @@, 
-					por ejemplo @@ q_1 @@ se sustituirá por un cuadro de texto o una lista desplegable (en función del tipo de cuestión),
-					que podrá ser rellenado por el alumno. El objetivo de este uso de las cuestiones es crear actividades
+					previamente creado. Para ello debemos escribir el símbolo del componente cuestión entre @@,
+					por ejemplo @@ q_1 @@ se sustituirá por un cuadro de texto o una lista desplegable (en función del
+					tipo de cuestión),
+					que podrá ser rellenado por el alumno. El objetivo de este uso de las cuestiones es crear
+					actividades
 					con preguntas para que los alumnos las rellenen.</p>
 
 				<p><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="edit" width="1em" height="1em"
@@ -1498,6 +1500,35 @@
 
 				<br />
 				<h3>Actividades con cuestiones</h3>
+				<p>Las cuestiones son componentes que se pueden añadir a las actividades y que permiten al profesor
+					realizar preguntas al alumno sobre el problema. Estas preguntas pueden ser de tipo texto o de tipo
+					lista desplegable.
+				</p>
+				<img class="ui bordered centered image" src="img/Editar cuestion.png" width="960"
+					alt="Editar cuestión" />
+				<br />
+				<p>El componente cuestión no será visible por el alumno cuando se le envíe la cuestión,
+					por tanto, las cuestiones deben de ser incluidas en textos haciendo referencia a sus símbolo y
+					rodeandolas de @@. Por ejemplo para insertar la cuestión q_1 en el texto debemos escribir @@ q_1 @@.
+				</p>
+				<img class="ui bordered centered image" src="img/Cuestion en texto.png" width="960"
+					alt="Cuestión en texto" />
+				<br />
+				<p>Al igual que con todas las actividades el profesor debe de crear el enunciado, que será el que se le
+					enviará
+					al alumno cuando se cree la actividad, y la solución, que se usará para corregir la actividad. En el
+					enunciado el
+					valor de la cuestión debe de dejarse vacío y en la solución debe de incluirse el valor correcto de
+					la cuestión.
+					Para las cuestiones tipo texto con varias soluciones posibles, el profesor puede incluir en el valor
+					las diferentes
+					soluciones correctas separadas por comas. Cuando se realiza la corrección las diferencias entre
+					mayúsculas y minúsculas no son
+					tenidas en cuenta. </p>
+				</p>
+				<img class="ui bordered centered image" src="img/Solucion cuestion.png" width="960"
+					alt="Solución cuestión" />
+				<br />
 			</div>
 
 		</div>
