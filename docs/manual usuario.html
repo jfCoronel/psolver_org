@@ -994,6 +994,16 @@
 					una vez modificada, si es que existe cambio de unidad.
 				</p>
 
+				<p>Podremos especificar una nueva variable que no esté definida en el problema y añadirle un igual
+					y los valores o expresiones separados por comas que queremos que tome en cada una de las
+					filas de la tabla. Esta variable se añadirá al problema y se resolverá junto con el resto de
+					los componentes del problema. Por ejemplo, si añadimos una columna con la variable
+					"T_3 = T_1, T_2, 24 [ºC]" se añadirá al problema la variable T_3 que tomará el valor de T_1 para la
+					primera fila, el valor de T_2 para la segunda fila y 24 para el resto de filas. La unidad puede especificarse
+					entre corchetes al final de la expresión. Esta opción nos permite crear variables y asociarlas a gráficas con 
+					valores que están definidos en el problema.
+				</p>
+
 				<p>Una vez definidas todas las columnas pulsaremos el botón "Calcular" para obtener los valores
 					de todas las filas resolviendo el problema tantas veces como filas tengamos. Si activamos el check
 					"Recalcular tabla al resolver" se recalculará la tabla cada vez que resolvamos el problema (o la
@@ -1518,12 +1528,12 @@
 					al alumno cuando se cree la actividad, y la solución, que se usará para corregir la actividad. En el
 					enunciado el
 					valor de la cuestión debe de dejarse vacío y en la solución debe de incluirse el valor correcto de
-					la cuestión.
-					Para las cuestiones tipo texto con varias soluciones posibles, el profesor puede incluir en el valor
+					la cuestión.</p>
+					<p>Para las cuestiones tipo texto con varias soluciones posibles, el profesor puede incluir en el valor
 					las diferentes
 					soluciones correctas separadas por comas. Cuando se realiza la corrección las diferencias entre
 					mayúsculas y minúsculas no son
-					tenidas en cuenta. </p>
+					tenidas en cuenta. El campo "Lista de valores numéricos" se usará si algún dato hace referencia a la cuestión.</p>
 				</p>
 				<img class="ui bordered centered image" src="img/Solucion cuestion.png" width="960"
 					alt="Solución cuestión" />

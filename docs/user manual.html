@@ -941,6 +941,16 @@
 					The unknowns, Fluids and Humid Airs will be displayed in the table in their final unit
 					once modified, if there is a unit change.</p>
 
+				<p>We can specify a new variable that is not defined in the problem and add to it an equals
+					 and the values or expressions separated by commas that we want it to take in each of the rows of the table.
+					This variable will be added to the problem and solved along with the rest of the problem components.
+					For example, if we add a column with the variable “T_3 = T_1, T_2, 24 [ºC]” the variable T_3 will 
+					be added to the problem and will take the value of T_1 for the first row, 
+					the value of T_2 for the second row and 24 for the rest of the rows. 
+					The unit can be specified in square brackets at the end of the expression. 
+					This option allows us to create variables and associate them to graphs with 
+					values that are defined in the problem.</p>
+
 				<p>Once all the columns have been defined, click on the "Calculate" button to obtain the values of all
 					the rows, solving the problem as many times as we have rows. If we activate the check
 					“Recalculate table when solving” the table will be recalculated each time we solve the problem (or
@@ -1445,10 +1455,11 @@
 					which will be sent to the student when the activity is created,
 					and the solution, which will be used to correct the activity.
 					In the statement the value of the question should be left empty and
-					in the solution the correct value of the question should be included.
-					For text type questions with several possible solutions, the teacher can include
+					in the solution the correct value of the question should be included.</p>
+					<p>For text type questions with several possible solutions, the teacher can include
 					in the values of the differents correct solutions separated by commas.
 					When correcting, the differences between upper and lower case letters are not taken into account.
+					The “List of numerical values” field will be used if any data refers to the question.
 				</p>
 				</p>
 				<img class="ui bordered centered image" src="img/Solucion cuestion_en.png" width="960"
