@@ -42,6 +42,7 @@
     "tabla_error_mas_igual": "La expresión tiene más de un = : ",
     "tabla_error_no_simbolo": "No se encuentra el símbolo: ",
     "tabla_error_no_dato": " no es un dato, y por tanto no se puede modificar en la tabla",
+    "tabla_error_nueva_variable_sin_expresion":" es una nueva variable, pero no tiene expresión",
     "tabla_lab_vacia": "VACIA",
     "prob_error_carga": "Error en la carga del problema",
     "prob_error_carga_privado": "No se pueden cargar los problemas privados",
@@ -492,5 +493,6 @@
     "vis_tab_tipo_cuestion": "Tipo de cuestión",
     "vis_tab_opc_cuestion": "Cuestiones",
     "Cuestion": "Cuestión",
-    "for_cuestion_opciones": "Lista de opciones"
+    "for_cuestion_opciones": "Lista de opciones",
+    "for_cuestion_valores": "Lista de valores numéricos"
 }

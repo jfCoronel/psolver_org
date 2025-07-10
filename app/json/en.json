@@ -42,6 +42,7 @@
     "tabla_error_mas_igual": "Expression has more than one = : ",
     "tabla_error_no_simbolo": "Symbol not found: ",
     "tabla_error_no_dato": " is not data, and therefore cannot be modified in the table.",
+    "tabla_error_nueva_variable_sin_expresion": " is a new variable, but it does not have an expression.",
     "tabla_lab_vacia": "EMPTY",
     "prob_error_carga": "Error loading problem",
     "prob_error_carga_privado": "Private problem cannot be loaded",
@@ -493,5 +494,6 @@
     "vis_tab_tipo_cuestion": "Question type",
     "vis_tab_opc_cuestion": "Questions",
     "Cuestion": "Question",
-    "for_cuestion_opciones": "Options list"
+    "for_cuestion_opciones": "Options list",
+    "for_cuestion_valores": "List of numerical values"
 }
