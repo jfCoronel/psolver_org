@@ -495,5 +495,15 @@
     "vis_tab_opc_cuestion": "Questions",
     "Cuestion": "Question",
     "for_cuestion_opciones": "Options list",
-    "for_cuestion_valores": "List of numerical values"
+    "for_cuestion_valores": "List of numerical values",
+    "for_graf_diagramas": "FLUID DIAGRAM",
+    "for_graf_diagrama_tipo": "Diagram type",
+    "tipo_diagrama_no": "None",
+    "tipo_diagrama_sicro": "Psychrometric T[°C] - w[g/kg]",
+    "tipo_diagrama_p-T": "T[°C] - p[kPa]",
+    "tipo_diagrama_p-h": "h[kJ/kg] - log p[kPa]",
+    "tipo_diagrama_T-s": "T[°C] - s[kJ/kgK]",
+    "for_presion_sicro": "Pressure for Psychrometric [kPa]",
+    "for_fluido": "Fluid",
+    "graf_serie_saturacion": "Saturation curve"
 }

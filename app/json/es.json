@@ -494,5 +494,15 @@
     "vis_tab_opc_cuestion": "Cuestiones",
     "Cuestion": "Cuestión",
     "for_cuestion_opciones": "Lista de opciones",
-    "for_cuestion_valores": "Lista de valores numéricos"
+    "for_cuestion_valores": "Lista de valores numéricos",
+    "for_graf_diagramas": "DIAGRAMA DE FLUIDOS",
+    "for_graf_diagrama_tipo": "Tipo de diagrama",
+    "tipo_diagrama_no": "No incluir",
+    "tipo_diagrama_sicro": "Psicrométrico T[°C] - w[g/kg]",
+    "tipo_diagrama_p-T": "T[°C] - p[kPa]",
+    "tipo_diagrama_p-h": "h[kJ/kg] - log p[kPa]",
+    "tipo_diagrama_T-s": "T[°C] - s[kJ/kgK]",
+    "for_presion_sicro": "Presión para Sicrométrico [kPa]",
+    "for_fluido": "Fluido",
+    "graf_serie_saturacion": "Curva sat."
 }
