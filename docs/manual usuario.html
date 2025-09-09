@@ -31,7 +31,7 @@
 
 		<div class="ui main container">
 			<h1>Manual de usuario</h1>
-			<h4>Actualizado a la versión 4.40</h4>
+			<h4>Actualizado a la versión 4.42</h4>
 
 			<h2>Índice</h2>
 			<ol style="font-size: 1.2rem; line-height: 1.3">
@@ -1027,6 +1027,24 @@
 
 				<img class="ui bordered centered image" src="img/Editar grafica.png" width="960" alt="Editar gráfica" />
 				<br>
+				<h3>Diagrama de fluidos</h3>
+				<p>En la edición de las gráficas podemos encontrar una sección que permite añadir curvas de saturación de diferentes
+					fluidos como fondo de nuestra gráfica, pudiendo superponer nuestras variables calculadas en tablas a estas 
+					curvas de saturación. Las distintas opciones disponibles para el "tipo de diagrama" son:
+				</p>
+
+				<ul>
+					<li><b>No incluir</b>: No mostrará ningún diagrama.</li>
+					<li><b>Psicrométrico w[g/kg] - T [°C] </b>: Muestra la curva sicrométrica de saturación del aire húmedo 
+						a la presión seleccionada en el campo "Presión sicrométrica"[kPa]. añade también
+					en línea más fina las curvas de humedad relativa del 75, 50 y 25%. </li>
+					<li><b>p[kPa] - T[°C] </b>: Muestra la curva de saturación p-T del fluido seleccionado en el desplegable "Fluido".</li>
+					<li><b>log p[kPa] - h[kJ/kg]</b>: Muestra la curva de saturación p-h del fluido seleccionado en el desplegable "Fluido". 
+						El eje y de las presiones se  muestra en escala logarítmica.</li>
+					<li><b>T[°C] - s[kJ/(kg·K)]</b>: Muestra la curva de saturación T-s del fluido seleccionado en el desplegable "Fluido".</li>
+				</ul>
+				<br/>
+				<img class="ui bordered centered image" src="img/Diagrama de fluidos.png" width="960" alt="Diagrama de fluidos" />
 			</div>
 
 			<a name="diferenciales"></a>

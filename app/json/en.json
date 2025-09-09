@@ -499,11 +499,11 @@
     "for_graf_diagramas": "FLUID DIAGRAM",
     "for_graf_diagrama_tipo": "Diagram type",
     "tipo_diagrama_no": "None",
-    "tipo_diagrama_sicro": "Psychrometric T[°C] - w[g/kg]",
-    "tipo_diagrama_p-T": "T[°C] - p[kPa]",
-    "tipo_diagrama_p-h": "h[kJ/kg] - log p[kPa]",
+    "tipo_diagrama_sicro": "Psychrometric w[g/kg] - T[°C]",
+    "tipo_diagrama_p-T": "p[kPa] - T[°C]",
+    "tipo_diagrama_p-h": "log p[kPa] - h[kJ/kg]",
     "tipo_diagrama_T-s": "T[°C] - s[kJ/kgK]",
-    "for_presion_sicro": "Pressure for Psychrometric [kPa]",
+    "for_presion_sicro": "Psychrometric pressure [kPa]",
     "for_fluido": "Fluid",
     "graf_serie_saturacion": "Saturation curve"
 }

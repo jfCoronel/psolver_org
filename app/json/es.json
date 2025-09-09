@@ -498,11 +498,11 @@
     "for_graf_diagramas": "DIAGRAMA DE FLUIDOS",
     "for_graf_diagrama_tipo": "Tipo de diagrama",
     "tipo_diagrama_no": "No incluir",
-    "tipo_diagrama_sicro": "Psicrométrico T[°C] - w[g/kg]",
-    "tipo_diagrama_p-T": "T[°C] - p[kPa]",
-    "tipo_diagrama_p-h": "h[kJ/kg] - log p[kPa]",
+    "tipo_diagrama_sicro": "Psicrométrico w[g/kg] - T[°C]",
+    "tipo_diagrama_p-T": "p[kPa] - T[°C]",
+    "tipo_diagrama_p-h": "log p[kPa] - h[kJ/kg]",
     "tipo_diagrama_T-s": "T[°C] - s[kJ/kgK]",
-    "for_presion_sicro": "Presión para Sicrométrico [kPa]",
+    "for_presion_sicro": "Presión sicrométrica [kPa]",
     "for_fluido": "Fluido",
     "graf_serie_saturacion": "Curva sat."
 }
