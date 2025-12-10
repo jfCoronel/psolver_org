@@ -74,7 +74,8 @@
     "conf_error_email_invalid": "Error: Invalid e-mail address.",
     "conf_lab_duplicar": "Duplicate problem",
     "conf_error_duplica_actividad": "Error: Duplication not allowed, this problem is an activity and you are not the original author.",
-    "conf_error_copia_privado": "Error: Copying or duplication not allowed, this problem is private.",
+    "conf_error_copia_privado": "Error: Copying or duplication not allowed.",
+    "conf_error_problema_otro_usuario": "Error: Cannot import a problem from another user from a file.",
     "conf_lab_cargar_problema": "Load problem",
     "conf_error_no_id": "Error: Problem not found.",
     "conf_new_prob_nombre": "New Problem",
@@ -514,5 +515,6 @@
     "tipo_diagrama_T-s": "T[°C] - s[kJ/kgK]",
     "for_presion_sicro": "Psychrometric pressure [kPa]",
     "for_fluido": "Fluid",
-    "graf_serie_saturacion": "Saturation curve"
+    "graf_serie_saturacion": "Saturation curve",
+    "conf_usu_de": " of " 
 }

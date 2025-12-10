@@ -74,7 +74,8 @@
     "conf_error_email_invalid": "Error: Dirección de correo no válida.",
     "conf_lab_duplicar": "Duplicar problema",
     "conf_error_duplica_actividad": "Error: Duplicación no permitida, este problema es una actividad y usted no es su autor original",
-    "conf_error_copia_privado": "Error: Copia o duplicación no permitida, este problema es privado",
+    "conf_error_copia_privado": "Error: Copia o duplicación no permitida.",
+    "conf_error_problema_otro_usuario": "Error: No se puede importar desde archivo un problema de otro usuario.",
     "conf_lab_cargar_problema": "Cargar problema",
     "conf_error_no_id": "Error: No se encuentra el problema.",
     "conf_new_prob_nombre": "Nuevo Problema",
@@ -513,5 +514,6 @@
     "tipo_diagrama_T-s": "T[°C] - s[kJ/kgK]",
     "for_presion_sicro": "Presión sicrométrica [kPa]",
     "for_fluido": "Fluido",
-    "graf_serie_saturacion": "Curva sat."
+    "graf_serie_saturacion": "Curva sat.",
+    "conf_usu_de": " de " 
 }
