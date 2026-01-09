@@ -146,6 +146,7 @@
     "plist_lbl_ult_mod": "Última Mod.: ",
     "rev_error_simbolo_repetido": "Error(sim): El símbolo ya está en otro componente",
     "rev_error_simbolo_incorrecto": "Error(sim): El símbolo no es correcto",
+    "rev_error_texto_vacio": "Error(texto): El texto no puede estar vacío",
     "rev_error_prop_convergencia": "  no es un número ó Infinito ó -Infinito",
     "rev_error_nombre_fluido": " no es una opción valida",
     "rev_error_coolprop_flu": "Error(coolprop): Error evaluando la propiedad del fluido",
@@ -521,5 +522,6 @@
     "for_presion_sicro": "Presión sicrométrica [kPa]",
     "for_fluido": "Fluido",
     "graf_serie_saturacion": "Curva sat.",
-    "conf_usu_de": " de " 
+    "conf_usu_de": " de ",
+    "bbot_tt_salvar": "Guardar [s]"
 }

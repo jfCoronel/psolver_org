@@ -146,6 +146,7 @@
     "plist_lbl_ult_mod": "Last Mod.: ",
     "rev_error_simbolo_repetido": "Error(sim): The symbol is already in another component",
     "rev_error_simbolo_incorrecto": "Error(sim): The symbol is not correct",
+    "rev_error_texto_vacio": "Error(text): Text cannot be empty",
     "rev_error_prop_convergencia": "  is not a number or Infinity or -Infinity",
     "rev_error_nombre_fluido": " is not a valid option",
     "rev_error_coolprop_flu": "Error(coolprop): Error evaluating the fluid property",
@@ -522,5 +523,6 @@
     "for_presion_sicro": "Psychrometric pressure [kPa]",
     "for_fluido": "Fluid",
     "graf_serie_saturacion": "Saturation curve",
-    "conf_usu_de": " of " 
+    "conf_usu_de": " of ",
+    "bbot_tt_salvar": "Save [s]"
 }
