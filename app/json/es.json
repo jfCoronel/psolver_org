@@ -523,5 +523,7 @@
     "for_fluido": "Fluido",
     "graf_serie_saturacion": "Curva sat.",
     "conf_usu_de": " de ",
-    "bbot_tt_salvar": "Guardar [s]"
+    "bbot_tt_salvar": "Guardar [s]",
+    "edit_tarea_editar_enunciado": "Editar enunciado",
+    "edit_tarea_editar_solucion": "Editar solución"
 }

@@ -524,5 +524,7 @@
     "for_fluido": "Fluid",
     "graf_serie_saturacion": "Saturation curve",
     "conf_usu_de": " of ",
-    "bbot_tt_salvar": "Save [s]"
+    "bbot_tt_salvar": "Save [s]",
+    "edit_tarea_editar_enunciado": "Edit statement",
+    "edit_tarea_editar_solucion": "Edit solution"
 }
