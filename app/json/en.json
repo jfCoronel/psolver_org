@@ -423,6 +423,7 @@
     "mostrar_lista_tareas": "Task List",
     "actList_lbl_creacion": "Date of creation: ",
     "ttip_nueva_tarea": "New Task",
+    "ttip_editar_tarea": "Edit Task",
     "ttip_borrar_tarea": "Delete selected tasks",
     "dlg_borrar_tarea_titulo": "Removing tasks",
     "dlg_borrar_tarea_mensaje": "Do you really want to delete the task(s)?",

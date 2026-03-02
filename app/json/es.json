@@ -422,6 +422,7 @@
     "mostrar_lista_tareas": "Lista de Tareas",
     "actList_lbl_creacion": "Fecha creación: ",
     "ttip_nueva_tarea": "Nueva tarea",
+    "ttip_editar_tarea": "Editar tarea",
     "ttip_borrar_tarea": "Borrar tareas seleccionadas",
     "dlg_borrar_tarea_titulo": "Eliminando tareas",
     "dlg_borrar_tarea_mensaje": "¿Realmente desea borrar la/s tarea/s?",
