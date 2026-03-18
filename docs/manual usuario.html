@@ -30,7 +30,7 @@
 
 		<div class="ui main container">
 			<h1>Manual de usuario</h1>
-			<h4>Actualizado a la versión 4.47</h4>
+			<h4>Actualizado a la versión 4.60</h4>
 
 			<h2>Índice</h2>
 			<ol style="font-size: 1.2rem; line-height: 1.3">
@@ -93,6 +93,14 @@
 					<li>Tablas</li>
 					<li>Gráficas</li>
 				</ul>
+				<p>Para poder realizar varios problemas dentro del mismo documento se pueden usar las secciones,
+					y para incluir cálculos repetetivos disponemos de funciones en las cuales se pueden programar los
+					mismos. Estas acciones se realizan con los compoenentes:</p>
+
+				<ul>
+					<li>Secciones</li>
+					<li>Funciones</li>
+				</ul>
 
 				<p>Todos estos componentes que el usuario puede crear, mover, editar, borrar y copiar/pegar, ayudan
 					a la resolución ordenada del problema. De esta forma, el alumno puede centrarse en el adecuado
@@ -102,7 +110,8 @@
 				</p>
 
 				<p>La aplicación puede ejecutarse en cualquier navegador de última generación
-					accediendo a la dirección <a href="http://psolver.org">http://psolver.org</a>.
+					accediendo a la dirección <a target="_blank"
+						href="http://app.psolver.org/app">http://app.psolver.org/app</a>.
 				</p>
 				<p>Se recomienda utilizar Chrome, Safari o Microsoft Edge. Con Firefox no está permitido el uso del
 					portapapeles del sistema para copiar y pegar componentes,
@@ -339,17 +348,19 @@
 						</path>
 					</svg>.
 					Los parámetros que podemos modificar se muestran en la barra lateral de configuración y
-					se guardan automáticamente para cada usuario. Además del nombre de usuario, podemos cambiar el ancho de la
+					se guardan automáticamente para cada usuario. Además del nombre de usuario, podemos cambiar el ancho
+					de la
 					barra
 					lateral
 					, su posición, el zoom de la página y su posición, podemos modificar el "Paso de
 					ratón" en pixels que permite desplazar los componentes a saltos de ese tamaño,
 					facilitando la colocación y alineación de los mismos. También podremos cambiar el fondo blanco
-					de la página, por un fondo cuadriculado o con puntos. Por último, podemos cambiar el color del texto
-					utilizado para los diferentes
+					de la página, por un fondo cuadriculado o con puntos. Para editar los componentes en la barra
+					lateral o con el editor rápido,
+					podemos elegir el evento (click, doble click ó ctrl+doble click) que queremos usar.
+					Por último, podemos cambiar el color del texto utilizado para los diferentes
 					componentes: datos, incógnitas, ecuaciones, propiedades de fluidos o aire húmedo, las etiquetas de
-					las
-					imágenes, tablas y gráficas y los componentes "no activos".
+					las imágenes, tablas y gráficas y los componentes "no activos".
 				</p>
 
 				<img class="ui bordered centered image" src="img/configuracion.png" width="360" alt="Configuración" />
@@ -389,36 +400,29 @@
 				<img class="ui bordered centered image" src="img/formato numerico.png" width="360"
 					alt="Formato numérico del problema" />
 				<br>
+				<p>El check "Resultados a valores iniciales automaticamente tras calcular" permite que los resultados
+					se restablezcan a los valores iniciales después de realizar un cálculo de forma automática.</p>
 				<p>
 					Podemos ver también las fechas de creación y última modificación del problema y el ID del problema.
-					El
-					ID es una combinación de letras y números que identifica de forma
+					El ID es una combinación de letras y números que identifica de forma
 					unívoca al problema y que podremos copiar para enviar el problema a otro usuario.
 					El e-mail del autor original del problema se corresponde al usuario que creo el
 					problema, este e-mail se mantendrá cuando realicemos copias del problema.</p>
 
-				<p>Además del botón de configuración de usuario podemos ver el desplagable "Nuevo" que nos permite crear cada uno
-					de los diferentes componentes de un problema, que explicaremos detenidamente en la siguiente
-					sección.
-					A continuación encontramos los botones destinados a editar los componentes del problema:</p>
+				<p>Además del botón de configuración de usuario podemos ver el desplagable "Nuevo" que nos permite crear
+					cada uno de los diferentes componentes de un problema, que explicaremos detenidamente en la siguiente
+					sección.</p>
+				<p>Los botones clásicos para guardar, imprimir, editar, eliminar, copiar, cortar y pegar los
+					podemos encontrar en la barra de botones o en el menú contextual usando el botón derecho del ratón.
+					Además encontramos los siguientes botones:</p>
 				<ul>
-					<li><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="edit" width="1em"
-							height="1em" fill="currentColor" aria-hidden="true">
-							<path
-								d="M360 184h-8c4.4 0 8-3.6 8-8v8h304v-8c0 4.4 3.6 8 8 8h-8v72h72v-80c0-35.3-28.7-64-64-64H352c-35.3 0-64 28.7-64 64v80h72v-72zm504 72H160c-17.7 0-32 14.3-32 32v32c0 4.4 3.6 8 8 8h60.4l24.7 523c1.6 34.1 29.8 61 63.9 61h454c34.2 0 62.3-26.8 63.9-61l24.7-523H888c4.4 0 8-3.6 8-8v-32c0-17.7-14.3-32-32-32zM731.3 840H292.7l-24.2-512h487l-24.2 512z">
-							</path>
-						</svg>
-						Eliminar: Elimina el/los componente/s seleccionado/s.
-					</li>
-
-
 					<li><svg viewBox="64 64 896 896" focusable="false" data-icon="eye" width="1em" height="1em"
 							fill="currentColor" aria-hidden="true">
 							<path
 								d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
 							</path>
 						</svg>
-						Activar/desactivar: Activa ó desactiva los componentes seleccionados.
+						Activar/desactivar: Activa ó desactiva los componentes seleccionados (Menú contextual).
 					</li>
 
 					<li><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="edit" width="1em"
@@ -428,35 +432,7 @@
 							</path>
 						</svg>
 						Enviar al fondo: Cuando dos componentes ocupan el mismo espacio sobre la hoja podemos enviar al
-						fondo el componente seleccionado.
-					</li>
-					<li><svg viewBox="64 64 896 896" focusable="false" data-icon="scissor" width="1em" height="1em"
-							fill="currentColor" aria-hidden="true">
-							<path
-								d="M567.1 512l318.5-319.3c5-5 1.5-13.7-5.6-13.7h-90.5c-2.1 0-4.2.8-5.6 2.3l-273.3 274-90.2-90.5c12.5-22.1 19.7-47.6 19.7-74.8 0-83.9-68.1-152-152-152s-152 68.1-152 152 68.1 152 152 152c27.7 0 53.6-7.4 75.9-20.3l90 90.3-90.1 90.3A151.04 151.04 0 00288 582c-83.9 0-152 68.1-152 152s68.1 152 152 152 152-68.1 152-152c0-27.2-7.2-52.7-19.7-74.8l90.2-90.5 273.3 274c1.5 1.5 3.5 2.3 5.6 2.3H880c7.1 0 10.7-8.6 5.6-13.7L567.1 512zM288 370c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80zm0 444c-44.1 0-80-35.9-80-80s35.9-80 80-80 80 35.9 80 80-35.9 80-80 80z">
-							</path>
-						</svg>
-						Cortar: Elimina y guarda en el portapapeles los componentes actualmente seleccionados para poder
-						pegarlos
-						posteriormente. Podrán pegarse en el mismo problema o en otro problema.
-					</li>
-					<li><svg viewBox="64 64 896 896" focusable="false" class="" data-icon="edit" width="1em"
-							height="1em" fill="currentColor" aria-hidden="true">
-							<path
-								d="M832 64H296c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h496v688c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V96c0-17.7-14.3-32-32-32zM704 192H192c-17.7 0-32 14.3-32 32v530.7c0 8.5 3.4 16.6 9.4 22.6l173.3 173.3c2.2 2.2 4.7 4 7.4 5.5v1.9h4.2c3.5 1.3 7.2 2 11 2H704c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32zM350 856.2L263.9 770H350v86.2zM664 888H414V746c0-22.1-17.9-40-40-40H232V264h432v624z">
-							</path>
-						</svg>
-						Copiar: Guarda en el portapapeles los componentes actualmente seleccionados para poder pegarlos
-						posteriormente. Podrán pegarse en el mismo problema o en otro problema.
-					</li>
-					<li><svg viewBox="64 64 896 896" focusable="false" data-icon="snippets" width="1em" height="1em"
-							fill="currentColor" aria-hidden="true">
-							<path
-								d="M832 112H724V72c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v40H500V72c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v40H320c-17.7 0-32 14.3-32 32v120h-96c-17.7 0-32 14.3-32 32v632c0 17.7 14.3 32 32 32h512c17.7 0 32-14.3 32-32v-96h96c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM664 888H232V336h218v174c0 22.1 17.9 40 40 40h174v338zm0-402H514V336h.2L664 485.8v.2zm128 274h-56V456L544 264H360v-80h68v32c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-32h152v32c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-32h68v576z">
-							</path>
-						</svg>
-						Pegar: Pega en el problema los componentes previamente almacenados en el portapapeles,
-						el usuario debe de hacer click en el nuevo lugar donde quiera pegar los componentes.
+						fondo el componente seleccionado (Menú contextual).
 					</li>
 					<li><svg viewBox="0 0 1024 1024" focusable="false" data-icon="retweet" width="1em" height="1em"
 							fill="currentColor" aria-hidden="true">
@@ -466,15 +442,6 @@
 						</svg>
 						Reemplazar símbolo: Reemplaza un símbolo por otro introducido por el usuario,
 						buscando en todos los componentes del problema.
-					</li>
-					<li>
-						<svg viewBox="64 64 896 896" focusable="false" data-icon="file-search" width="1em" height="1em"
-							fill="currentColor" aria-hidden="true">
-							<path
-								d="M688 312v-48c0-4.4-3.6-8-8-8H296c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h384c4.4 0 8-3.6 8-8zm-392 88c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H296zm144 452H208V148h560v344c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V108c0-17.7-14.3-32-32-32H168c-17.7 0-32 14.3-32 32v784c0 17.7 14.3 32 32 32h272c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm445.7 51.5l-93.3-93.3C814.7 780.7 828 743.9 828 704c0-97.2-78.8-176-176-176s-176 78.8-176 176 78.8 176 176 176c35.8 0 69-10.7 96.8-29l94.7 94.7c1.6 1.6 3.6 2.3 5.6 2.3s4.1-.8 5.6-2.3l31-31a7.9 7.9 0 000-11.2zM652 816c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
-							</path>
-						</svg>
-						Buscar incógnitas: Revisa las ecuaciones y crea las nuevas incógnitas encontradas en ellas.
 					</li>
 
 					<li>
@@ -487,31 +454,6 @@
 						Vista tabular: Muestra varias listas de los componentes principales (datos, incógnitas,
 						ecuaciones, fluidos y aires húmedos) en formato de tabla.
 					</li>
-				</ul>
-
-				<p>Por último, podemos encontrar los botones relacionados con la resolución y gestión del problema:</p>
-
-				<ul>
-					<li>
-						<svg viewBox="64 64 896 896" focusable="false" data-icon="calculator" width="1em" height="1em"
-							fill="currentColor" aria-hidden="true">
-							<path
-								d="M251.2 387H320v68.8c0 1.8 1.8 3.2 4 3.2h48c2.2 0 4-1.4 4-3.3V387h68.8c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H376v-68.8c0-1.8-1.8-3.2-4-3.2h-48c-2.2 0-4 1.4-4 3.2V331h-68.8c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm328 0h193.6c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H579.2c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm0 265h193.6c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H579.2c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm0 104h193.6c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H579.2c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm-195.7-81l61.2-74.9c4.3-5.2.7-13.1-5.9-13.1H388c-2.3 0-4.5 1-5.9 2.9l-34 41.6-34-41.6a7.85 7.85 0 00-5.9-2.9h-50.9c-6.6 0-10.2 7.9-5.9 13.1l61.2 74.9-62.7 76.8c-4.4 5.2-.8 13.1 5.8 13.1h50.8c2.3 0 4.5-1 5.9-2.9l35.5-43.5 35.5 43.5c1.5 1.8 3.7 2.9 5.9 2.9h50.8c6.6 0 10.2-7.9 5.9-13.1L383.5 675zM880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-36 732H180V180h664v664z">
-							</path>
-						</svg>
-						Resolver: Resuelve el problema, calculando las incógnitas.
-					</li>
-					<li><svg viewBox="64 64 896 896" focusable="false" data-icon="sync" width="1em" height="1em"
-							fill="currentColor" aria-hidden="true">
-							<path
-								d="M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27A341.5 341.5 0 01755 268.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8zm756 7.8h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4A342.45 342.45 0 01512.1 856a342.24 342.24 0 01-243.2-100.8c-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47a8 8 0 00-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8a8 8 0 00-8-8.2z">
-							</path>
-						</svg>
-						Resultados a valores iniciales: Toma como valores iniciales para la resolución los resultados
-						actualmente calculados.
-						Esta opción, como veremos más adelante, es muy interesante cuando surgen problemas de
-						convergencia en la resolución del problema.
-					</li>
 					<li>
 						<svg viewBox="64 64 896 896" focusable="false" data-icon="schedule" width="1em" height="1em"
 							fill="currentColor" aria-hidden="true">
@@ -522,14 +464,57 @@
 						Autocorrección: Esta opción permite corregir nuestro problema comparandolo con otro
 						que debe ser el correcto. Más adelante puedes encontrar una sección sobre el tema.
 					</li>
+				</ul>
+
+				<p>Por último, podemos encontrar los botones relacionados con la resolución y gestión del problema:</p>
+
+				<ul>
 					<li>
-						<svg viewBox="64 64 896 896" focusable="false" data-icon="printer" width="1em" height="1em"
+						<svg viewBox="64 64 896 896" focusable="false" data-icon="file-search" width="1em" height="1em"
 							fill="currentColor" aria-hidden="true">
 							<path
-								d="M820 436h-40c-4.4 0-8 3.6-8 8v40c0 4.4 3.6 8 8 8h40c4.4 0 8-3.6 8-8v-40c0-4.4-3.6-8-8-8zm32-104H732V120c0-4.4-3.6-8-8-8H300c-4.4 0-8 3.6-8 8v212H172c-44.2 0-80 35.8-80 80v328c0 17.7 14.3 32 32 32h168v132c0 4.4 3.6 8 8 8h424c4.4 0 8-3.6 8-8V772h168c17.7 0 32-14.3 32-32V412c0-44.2-35.8-80-80-80zM360 180h304v152H360V180zm304 664H360V568h304v276zm200-140H732V500H292v204H160V412c0-6.6 5.4-12 12-12h680c6.6 0 12 5.4 12 12v292z">
+								d="M688 312v-48c0-4.4-3.6-8-8-8H296c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h384c4.4 0 8-3.6 8-8zm-392 88c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H296zm144 452H208V148h560v344c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8V108c0-17.7-14.3-32-32-32H168c-17.7 0-32 14.3-32 32v784c0 17.7 14.3 32 32 32h272c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8zm445.7 51.5l-93.3-93.3C814.7 780.7 828 743.9 828 704c0-97.2-78.8-176-176-176s-176 78.8-176 176 78.8 176 176 176c35.8 0 69-10.7 96.8-29l94.7 94.7c1.6 1.6 3.6 2.3 5.6 2.3s4.1-.8 5.6-2.3l31-31a7.9 7.9 0 000-11.2zM652 816c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
 							</path>
 						</svg>
-						Imprimir: Imprime el problema.
+						Buscar incógnitas: Revisa las ecuaciones y crea las nuevas incógnitas encontradas en ellas.
+					</li>
+
+					<li>
+						<svg viewBox="64 64 896 896" focusable="false" data-icon="calculator" width="1em" height="1em"
+							fill="currentColor" aria-hidden="true">
+							<path
+								d="M251.2 387H320v68.8c0 1.8 1.8 3.2 4 3.2h48c2.2 0 4-1.4 4-3.3V387h68.8c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H376v-68.8c0-1.8-1.8-3.2-4-3.2h-48c-2.2 0-4 1.4-4 3.2V331h-68.8c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm328 0h193.6c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H579.2c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm0 265h193.6c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H579.2c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm0 104h193.6c1.8 0 3.2-1.8 3.2-4v-48c0-2.2-1.4-4-3.3-4H579.2c-1.8 0-3.2 1.8-3.2 4v48c0 2.2 1.4 4 3.2 4zm-195.7-81l61.2-74.9c4.3-5.2.7-13.1-5.9-13.1H388c-2.3 0-4.5 1-5.9 2.9l-34 41.6-34-41.6a7.85 7.85 0 00-5.9-2.9h-50.9c-6.6 0-10.2 7.9-5.9 13.1l61.2 74.9-62.7 76.8c-4.4 5.2-.8 13.1 5.8 13.1h50.8c2.3 0 4.5-1 5.9-2.9l35.5-43.5 35.5 43.5c1.5 1.8 3.7 2.9 5.9 2.9h50.8c6.6 0 10.2-7.9 5.9-13.1L383.5 675zM880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-36 732H180V180h664v664z">
+							</path>
+						</svg>
+						Resolver: Resuelve el problema, calculando las incógnitas.
+					</li>
+
+					<li>
+						<svg viewBox="64 64 896 896" focusable="false" data-icon="function" width="1em" height="1em"
+							fill="currentColor" aria-hidden="true">
+							<defs>
+								<style></style>
+							</defs>
+							<path
+								d="M841 370c3-3.3 2.7-8.3-.6-11.3a8.24 8.24 0 00-5.3-2.1h-72.6c-2.4 0-4.6 1-6.1 2.8L633.5 504.6a7.96 7.96 0 01-13.4-1.9l-63.5-141.3a7.9 7.9 0 00-7.3-4.7H380.7l.9-4.7 8-42.3c10.5-55.4 38-81.4 85.8-81.4 18.6 0 35.5 1.7 48.8 4.7l14.1-66.8c-22.6-4.7-35.2-6.1-54.9-6.1-103.3 0-156.4 44.3-175.9 147.3l-9.4 49.4h-97.6c-3.8 0-7.1 2.7-7.8 6.4L181.9 415a8.07 8.07 0 007.8 9.7H284l-89 429.9a8.07 8.07 0 007.8 9.7H269c3.8 0 7.1-2.7 7.8-6.4l89.7-433.1h135.8l68.2 139.1c1.4 2.9 1 6.4-1.2 8.8l-180.6 203c-2.9 3.3-2.6 8.4.7 11.3 1.5 1.3 3.4 2 5.3 2h72.7c2.4 0 4.6-1 6.1-2.8l123.7-146.7c2.8-3.4 7.9-3.8 11.3-1 .9.8 1.6 1.7 2.1 2.8L676.4 784c1.3 2.8 4.1 4.7 7.3 4.7h64.6a8.02 8.02 0 007.2-11.5l-95.2-198.9c-1.4-2.9-.9-6.4 1.3-8.8L841 370z">
+							</path>
+						</svg>
+						Funciones globales: Permite incluir en el problema alguna de las funciones globales disponibles
+						en pSolver.
+						Para poder usar la funciones globales en un problema primero debemos incluirlas en el problema
+						usando este botón.
+					</li>
+
+					<li><svg viewBox="64 64 896 896" focusable="false" data-icon="sync" width="1em" height="1em"
+							fill="currentColor" aria-hidden="true">
+							<path
+								d="M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27A341.5 341.5 0 01755 268.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8zm756 7.8h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4A342.45 342.45 0 01512.1 856a342.24 342.24 0 01-243.2-100.8c-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47a8 8 0 00-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8a8 8 0 00-8-8.2z">
+							</path>
+						</svg>
+						Resultados a valores iniciales: Toma como valores iniciales para la resolución los resultados
+						actualmente calculados.
+						Esta opción, como veremos más adelante, es muy interesante cuando surgen problemas de
+						convergencia en la resolución del problema.
 					</li>
 				</ul>
 
@@ -1461,8 +1446,16 @@
 				<br />
 
 				<p>Editando la tarea podremos ponerle nombre, descripción, seleccionar el curso al que pertenece y
-					establecer el ID del problema que se usará como enunciado y el de la solución. Con el botón  
-					<svg viewBox="64 64 896 896" focusable="false" data-icon="send" width="1em" height="1em" fill="currentColor" aria-hidden="true"><defs><style></style></defs><path d="M931.4 498.9L94.9 79.5c-3.4-1.7-7.3-2.1-11-1.2a15.99 15.99 0 00-11.7 19.3l86.2 352.2c1.3 5.3 5.2 9.6 10.4 11.3l147.7 50.7-147.6 50.7c-5.2 1.8-9.1 6-10.3 11.3L72.2 926.5c-.9 3.7-.5 7.6 1.2 10.9 3.9 7.9 13.5 11.1 21.5 7.2l836.5-417c3.1-1.5 5.6-4.1 7.2-7.1 3.9-8 .7-17.6-7.2-21.6zM170.8 826.3l50.3-205.6 295.2-101.3c2.3-.8 4.2-2.6 5-5 1.4-4.2-.8-8.7-5-10.2L221.1 403 171 198.2l628 314.9-628.2 313.2z"></path></svg>
+					establecer el ID del problema que se usará como enunciado y el de la solución. Con el botón
+					<svg viewBox="64 64 896 896" focusable="false" data-icon="send" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
+						<defs>
+							<style></style>
+						</defs>
+						<path
+							d="M931.4 498.9L94.9 79.5c-3.4-1.7-7.3-2.1-11-1.2a15.99 15.99 0 00-11.7 19.3l86.2 352.2c1.3 5.3 5.2 9.6 10.4 11.3l147.7 50.7-147.6 50.7c-5.2 1.8-9.1 6-10.3 11.3L72.2 926.5c-.9 3.7-.5 7.6 1.2 10.9 3.9 7.9 13.5 11.1 21.5 7.2l836.5-417c3.1-1.5 5.6-4.1 7.2-7.1 3.9-8 .7-17.6-7.2-21.6zM170.8 826.3l50.3-205.6 295.2-101.3c2.3-.8 4.2-2.6 5-5 1.4-4.2-.8-8.7-5-10.2L221.1 403 171 198.2l628 314.9-628.2 313.2z">
+						</path>
+					</svg>
 					, se crea una actividad en las cuentas de cada uno de los miembros del curso,
 					copiando el contenido del problema "enunciado", el sistema comprueba si el alumno ya tiene esa
 					actividad para no duplicarla.
@@ -1480,15 +1473,29 @@
 					alt="Editor de tareas" />
 				<br />
 
-				<p>Inicialmente las actividades no incluyen la posibilidad de que el alumno pueda autocorregirse, pero usando
-					el botón  <svg viewBox="64 64 896 896" focusable="false" data-icon="schedule" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M928 224H768v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H548v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H328v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H96c-17.7 0-32 14.3-32 32v576c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V256c0-17.7-14.3-32-32-32zm-40 568H136V296h120v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h148v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h148v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h120v496zM416 496H232c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zm0 136H232c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zm308.2-177.4L620.6 598.3l-52.8-73.1c-3-4.2-7.8-6.6-12.9-6.6H500c-6.5 0-10.3 7.4-6.5 12.7l114.1 158.2a15.9 15.9 0 0025.8 0l165-228.7c3.8-5.3 0-12.7-6.5-12.7H737c-5-.1-9.8 2.4-12.8 6.5z"></path></svg>
+				<p>Inicialmente las actividades no incluyen la posibilidad de que el alumno pueda autocorregirse, pero
+					usando
+					el botón <svg viewBox="64 64 896 896" focusable="false" data-icon="schedule" width="1em"
+						height="1em" fill="currentColor" aria-hidden="true">
+						<path
+							d="M928 224H768v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H548v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H328v-56c0-4.4-3.6-8-8-8h-56c-4.4 0-8 3.6-8 8v56H96c-17.7 0-32 14.3-32 32v576c0 17.7 14.3 32 32 32h832c17.7 0 32-14.3 32-32V256c0-17.7-14.3-32-32-32zm-40 568H136V296h120v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h148v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h148v56c0 4.4 3.6 8 8 8h56c4.4 0 8-3.6 8-8v-56h120v496zM416 496H232c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zm0 136H232c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zm308.2-177.4L620.6 598.3l-52.8-73.1c-3-4.2-7.8-6.6-12.9-6.6H500c-6.5 0-10.3 7.4-6.5 12.7l114.1 158.2a15.9 15.9 0 0025.8 0l165-228.7c3.8-5.3 0-12.7-6.5-12.7H737c-5-.1-9.8 2.4-12.8 6.5z">
+						</path>
+					</svg>
 					podemos activar esta posibilidad para todos los alumnos del curso.
 				</p>
 
-				<p>El editor de tareas puede mostrar dos tablas de corrección: una por alumno y otra por variable. Estas tablas se actualizan
-					usando el botón <svg viewBox="64 64 896 896" focusable="false" data-icon="reload" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M909.1 209.3l-56.4 44.1C775.8 155.1 656.2 92 521.9 92 290 92 102.3 279.5 102 511.5 101.7 743.7 289.8 932 521.9 932c181.3 0 335.8-115 394.6-276.1 1.5-4.2-.7-8.9-4.9-10.3l-56.7-19.5a8 8 0 00-10.1 4.8c-1.8 5-3.8 10-5.9 14.9-17.3 41-42.1 77.8-73.7 109.4A344.77 344.77 0 01655.9 829c-42.3 17.9-87.4 27-133.8 27-46.5 0-91.5-9.1-133.8-27A341.5 341.5 0 01279 755.2a342.16 342.16 0 01-73.7-109.4c-17.9-42.4-27-87.4-27-133.9s9.1-91.5 27-133.9c17.3-41 42.1-77.8 73.7-109.4 31.6-31.6 68.4-56.4 109.3-73.8 42.3-17.9 87.4-27 133.8-27 46.5 0 91.5 9.1 133.8 27a341.5 341.5 0 01109.3 73.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.6 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c-.1-6.6-7.8-10.3-13-6.2z"></path></svg>.
-					La tabla por alumno muestra cada uno de los alumnos del curso y la tabla por variable muestra cada una de las
-					variables principales del problema de la solución, permitiendo analizar que variables son las más acertadas y cuales no.
+				<p>El editor de tareas puede mostrar dos tablas de corrección: una por alumno y otra por variable. Estas
+					tablas se actualizan
+					usando el botón <svg viewBox="64 64 896 896" focusable="false" data-icon="reload" width="1em"
+						height="1em" fill="currentColor" aria-hidden="true">
+						<path
+							d="M909.1 209.3l-56.4 44.1C775.8 155.1 656.2 92 521.9 92 290 92 102.3 279.5 102 511.5 101.7 743.7 289.8 932 521.9 932c181.3 0 335.8-115 394.6-276.1 1.5-4.2-.7-8.9-4.9-10.3l-56.7-19.5a8 8 0 00-10.1 4.8c-1.8 5-3.8 10-5.9 14.9-17.3 41-42.1 77.8-73.7 109.4A344.77 344.77 0 01655.9 829c-42.3 17.9-87.4 27-133.8 27-46.5 0-91.5-9.1-133.8-27A341.5 341.5 0 01279 755.2a342.16 342.16 0 01-73.7-109.4c-17.9-42.4-27-87.4-27-133.9s9.1-91.5 27-133.9c17.3-41 42.1-77.8 73.7-109.4 31.6-31.6 68.4-56.4 109.3-73.8 42.3-17.9 87.4-27 133.8-27 46.5 0 91.5 9.1 133.8 27a341.5 341.5 0 01109.3 73.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.6 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c-.1-6.6-7.8-10.3-13-6.2z">
+						</path>
+					</svg>.
+					La tabla por alumno muestra cada uno de los alumnos del curso y la tabla por variable muestra cada
+					una de las
+					variables principales del problema de la solución, permitiendo analizar que variables son las más
+					acertadas y cuales no.
 				</p>
 
 
@@ -1519,14 +1526,30 @@
 					alt="Ejemplo de actividad entregada" />
 
 				<br />
-				<p>Si volvemos a la tarea y pulsamos el botón 
-					<svg viewBox="64 64 896 896" focusable="false" data-icon="reload" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M909.1 209.3l-56.4 44.1C775.8 155.1 656.2 92 521.9 92 290 92 102.3 279.5 102 511.5 101.7 743.7 289.8 932 521.9 932c181.3 0 335.8-115 394.6-276.1 1.5-4.2-.7-8.9-4.9-10.3l-56.7-19.5a8 8 0 00-10.1 4.8c-1.8 5-3.8 10-5.9 14.9-17.3 41-42.1 77.8-73.7 109.4A344.77 344.77 0 01655.9 829c-42.3 17.9-87.4 27-133.8 27-46.5 0-91.5-9.1-133.8-27A341.5 341.5 0 01279 755.2a342.16 342.16 0 01-73.7-109.4c-17.9-42.4-27-87.4-27-133.9s9.1-91.5 27-133.9c17.3-41 42.1-77.8 73.7-109.4 31.6-31.6 68.4-56.4 109.3-73.8 42.3-17.9 87.4-27 133.8-27 46.5 0 91.5 9.1 133.8 27a341.5 341.5 0 01109.3 73.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.6 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c-.1-6.6-7.8-10.3-13-6.2z"></path></svg>
-					, se actualizará el listado de las actividades realizadas por los alumnos y la corrección de las variables principales, mostrando si
+				<p>Si volvemos a la tarea y pulsamos el botón
+					<svg viewBox="64 64 896 896" focusable="false" data-icon="reload" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
+						<path
+							d="M909.1 209.3l-56.4 44.1C775.8 155.1 656.2 92 521.9 92 290 92 102.3 279.5 102 511.5 101.7 743.7 289.8 932 521.9 932c181.3 0 335.8-115 394.6-276.1 1.5-4.2-.7-8.9-4.9-10.3l-56.7-19.5a8 8 0 00-10.1 4.8c-1.8 5-3.8 10-5.9 14.9-17.3 41-42.1 77.8-73.7 109.4A344.77 344.77 0 01655.9 829c-42.3 17.9-87.4 27-133.8 27-46.5 0-91.5-9.1-133.8-27A341.5 341.5 0 01279 755.2a342.16 342.16 0 01-73.7-109.4c-17.9-42.4-27-87.4-27-133.9s9.1-91.5 27-133.9c17.3-41 42.1-77.8 73.7-109.4 31.6-31.6 68.4-56.4 109.3-73.8 42.3-17.9 87.4-27 133.8-27 46.5 0 91.5 9.1 133.8 27a341.5 341.5 0 01109.3 73.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.6 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c-.1-6.6-7.8-10.3-13-6.2z">
+						</path>
+					</svg>
+					, se actualizará el listado de las actividades realizadas por los alumnos y la corrección de las
+					variables principales, mostrando si
 					son correctas, incorrectas o no han sido encontradas.
 					Seleccionando una actividad concreta con el check de la primera columna y usando el botón
-					<svg viewBox="64 64 896 896" focusable="false" data-icon="eye" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z"></path></svg>
+					<svg viewBox="64 64 896 896" focusable="false" data-icon="eye" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
+						<path
+							d="M942.2 486.2C847.4 286.5 704.1 186 512 186c-192.2 0-335.4 100.5-430.2 300.3a60.3 60.3 0 000 51.5C176.6 737.5 319.9 838 512 838c192.2 0 335.4-100.5 430.2-300.3 7.7-16.2 7.7-35 0-51.5zM512 766c-161.3 0-279.4-81.8-362.7-254C232.6 339.8 350.7 258 512 258c161.3 0 279.4 81.8 362.7 254C791.5 684.2 673.4 766 512 766zm-4-430c-97.2 0-176 78.8-176 176s78.8 176 176 176 176-78.8 176-176-78.8-176-176-176zm0 288c-61.9 0-112-50.1-112-112s50.1-112 112-112 112 50.1 112 112-50.1 112-112 112z">
+						</path>
+					</svg>
 					podremos ver la actividad del alumno. Usando el botón
-					<svg viewBox="64 64 896 896" focusable="false" data-icon="file-excel" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M854.6 288.6L639.4 73.4c-6-6-14.1-9.4-22.6-9.4H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V311.3c0-8.5-3.4-16.7-9.4-22.7zM790.2 326H602V137.8L790.2 326zm1.8 562H232V136h302v216a42 42 0 0042 42h216v494zM514.1 580.1l-61.8-102.4c-2.2-3.6-6.1-5.8-10.3-5.8h-38.4c-2.3 0-4.5.6-6.4 1.9-5.6 3.5-7.3 10.9-3.7 16.6l82.3 130.4-83.4 132.8a12.04 12.04 0 0010.2 18.4h34.5c4.2 0 8-2.2 10.2-5.7L510 664.8l62.3 101.4c2.2 3.6 6.1 5.7 10.2 5.7H620c2.3 0 4.5-.7 6.5-1.9 5.6-3.6 7.2-11 3.6-16.6l-84-130.4 85.3-132.5a12.04 12.04 0 00-10.1-18.5h-35.7c-4.2 0-8.1 2.2-10.3 5.8l-61.2 102.3z"></path></svg> 
+					<svg viewBox="64 64 896 896" focusable="false" data-icon="file-excel" width="1em" height="1em"
+						fill="currentColor" aria-hidden="true">
+						<path
+							d="M854.6 288.6L639.4 73.4c-6-6-14.1-9.4-22.6-9.4H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V311.3c0-8.5-3.4-16.7-9.4-22.7zM790.2 326H602V137.8L790.2 326zm1.8 562H232V136h302v216a42 42 0 0042 42h216v494zM514.1 580.1l-61.8-102.4c-2.2-3.6-6.1-5.8-10.3-5.8h-38.4c-2.3 0-4.5.6-6.4 1.9-5.6 3.5-7.3 10.9-3.7 16.6l82.3 130.4-83.4 132.8a12.04 12.04 0 0010.2 18.4h34.5c4.2 0 8-2.2 10.2-5.7L510 664.8l62.3 101.4c2.2 3.6 6.1 5.7 10.2 5.7H620c2.3 0 4.5-.7 6.5-1.9 5.6-3.6 7.2-11 3.6-16.6l-84-130.4 85.3-132.5a12.04 12.04 0 00-10.1-18.5h-35.7c-4.2 0-8.1 2.2-10.3 5.8l-61.2 102.3z">
+						</path>
+					</svg>
 					descargamos un archivo que contiene la tabla en formato compatible con cualquier hoja de cálculo.
 				</p>
 
