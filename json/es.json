@@ -1,7 +1,7 @@
 {
     "lab_nombreApp": "pSolver",
     "lab_version": "Versión",
-    "lab_copyright": "ⓒ 2025-JFC ",
+    "lab_copyright": "ⓒ 2026-JFC ",
     "lab_idioma_es": "Español",
     "lab_idioma_en": "Inglés",
     "registro_lab_titulo1": "Usuario registrado:",
@@ -412,6 +412,8 @@
     "orientacion_horizontal_a3": "A3 - Horizontal",
     "men_rap_no_borrar_bloqueado": "No es posible eliminar un componente bloqueado",
     "url_raiz": "https://jfcoronel.github.io/psolver_org/",
+    "url_docs_en": "https://jfcoronel.github.io/psolver_org_docs/index.html",
+    "url_docs_es": "https://jfcoronel.github.io/psolver_org_docs/index_es.html",
     "firebase_error_curso_no_econtrado": "No se encuentra ningún curso con ID:",
     "profesor_ver_prob_cursos": "Mostrar: ",
     "mostrar_lista_problemas": "Lista de Problemas",
