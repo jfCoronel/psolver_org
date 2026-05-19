@@ -7,18 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg" href="./img/logo_psolver.svg" />
     <meta name="description" content="pSolver Problem Solver" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=AM_CHTML"></script>
     <script>
-        MathJax.Hub.Config({
-            showMathMenu: false,
-            asciimath2jax: {
+        window.MathJax = {
+            loader: {
+                load: ['input/asciimath', 'output/chtml', '[mathjax-termes]/chtml'],
+                paths: {
+                    'mathjax-termes': 'https://cdn.jsdelivr.net/npm/@mathjax/mathjax-termes-font@4.1.2'
+                }
+            },
+            chtml: { font: 'mathjax-termes' },
+            options: { enableMenu: false },
+            asciimath: {
                 delimiters: [['`', '`'], ['$', '$']]
             }
-        });
+        };
     </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@4/startup.js"></script>
 
     <title>pSolver</title>
-  <script type="module" crossorigin src="./assets/index-2f0e2346.js"></script>
+  <script type="module" crossorigin src="./assets/index-adb93f94.js"></script>
   <link rel="stylesheet" href="./assets/index-9b938f29.css">
 </head>
 
