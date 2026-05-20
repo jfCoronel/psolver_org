@@ -10,12 +10,9 @@
     <script>
         window.MathJax = {
             loader: {
-                load: ['input/asciimath', 'output/chtml', '[mathjax-termes]/chtml'],
-                paths: {
-                    'mathjax-termes': 'https://cdn.jsdelivr.net/npm/@mathjax/mathjax-termes-font@4.1.2'
-                }
+                load: ['input/asciimath', 'output/chtml']
             },
-            chtml: { font: 'mathjax-termes', matchFontHeight: false },
+            chtml: { matchFontHeight: false },
             options: { enableMenu: false },
             asciimath: {
                 delimiters: [['`', '`'], ['$', '$']]
