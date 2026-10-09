@@ -395,6 +395,8 @@
     "for_prob_redondeo_0": "Round to 0 if:",
     "for_prob_exponencial": "Use exponential notation if the number is:",
     "for_prob_privado": "Private (view/copy blocked)",
+    "for_prob_autocorreccion_ayuda": "Allows others to compare their work with this problem (self-correction) without opening or copying it.",
+    "compara_error_sin_autocorreccion": "This problem is private and its author has not enabled self-correction, so you cannot compare with it. ID: ",
     "for_tab_titulo": "TABLE:",
     "for_tab_n_filas": "No. Rows",
     "for_tab_n_columnas": "No. Columns",

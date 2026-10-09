@@ -395,6 +395,8 @@
     "for_prob_redondeo_0": "Redondear a 0 si:",
     "for_prob_exponencial": "Usar notación exponencial si el número es:",
     "for_prob_privado": "Privado (ver/copiar bloqueado)",
+    "for_prob_autocorreccion_ayuda": "Permite que otros se comparen con este problema (autocorrección) sin poder abrirlo ni copiarlo.",
+    "compara_error_sin_autocorreccion": "Este problema es privado y su autor no ha activado la autocorrección, así que no te puedes comparar con él. ID: ",
     "for_tab_titulo": "TABLA:",
     "for_tab_n_filas": "Nº Filas",
     "for_tab_n_columnas": "Nº Columnas",
