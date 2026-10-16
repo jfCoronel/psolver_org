@@ -511,6 +511,8 @@
     "edit_tarea_lbl_id_solucion": "Solución ID: ",
     "edit_tarea_lbl_curso": "Curso: ",
     "edit_tarea_lbl_fecha_limite": "Fecha límite: ",
+    "edit_tarea_sin_fecha_limite": "Sin fecha límite",
+    "edit_tarea_fecha_limite_ayuda": "Vacía, la tarea no tiene plazo y la actividad se puede entregar en cualquier momento. Para quitar la fecha, pulsa la ✕ que aparece al pasar el ratón por encima.",
     "edit_tarea_lbl_admitir_fuera_plazo": "Admitir entregas fuera de plazo",
     "edit_tarea_lbl_penalizacion": "Penalización (%): ",
     "edit_tarea_lbl_permitir_borrar": "Permitir borrar las actividades",

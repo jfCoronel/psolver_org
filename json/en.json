@@ -510,6 +510,8 @@
     "edit_tarea_lbl_id_solucion": "Solution ID: ",
     "edit_tarea_lbl_curso": "Course: ",
     "edit_tarea_lbl_fecha_limite": "Deadline: ",
+    "edit_tarea_sin_fecha_limite": "No deadline",
+    "edit_tarea_fecha_limite_ayuda": "Left empty, the task has no deadline and the activity can be submitted at any time. To remove the date, click the ✕ that appears when hovering over it.",
     "edit_tarea_lbl_admitir_fuera_plazo": "Accept late submissions",
     "edit_tarea_lbl_penalizacion": "Penalty (%): ",
     "edit_tarea_lbl_permitir_borrar": "Allow deleting activities",
