@@ -656,5 +656,7 @@
     "diag_aviso_incognita_ignorada": "La incógnita {0} no aparece en ninguna ecuación, así que no se ha calculado. El resto del problema sí se ha resuelto.",
     "diag_aviso_incognitas_ignoradas": "Estas incógnitas no aparecen en ninguna ecuación, así que no se han calculado: {0}. El resto del problema sí se ha resuelto.",
     "diag_falta_ecuacion": "El problema tiene {0} y {1}: falta {2}.",
-    "diag_sobra_ecuacion": "El problema tiene {0} y {1}: sobra {2}."
+    "diag_sobra_ecuacion": "El problema tiene {0} y {1}: sobra {2}.",
+    "diag_variables_sin_crear": "Hay variables que no se han creado como dato ni como incógnita: {0}. Puede crearlas como incógnitas con el botón «Buscar incógnitas [b]». Aparecen en:",
+    "diag_componente_variables_sin_crear": "{0} → sin crear: {1}"
 }

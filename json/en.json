@@ -657,5 +657,7 @@
     "diag_aviso_incognita_ignorada": "The unknown {0} does not appear in any equation, so it has not been calculated. The rest of the problem was solved.",
     "diag_aviso_incognitas_ignoradas": "These unknowns do not appear in any equation, so they have not been calculated: {0}. The rest of the problem was solved.",
     "diag_falta_ecuacion": "The problem has {0} and {1}: {2} is missing.",
-    "diag_sobra_ecuacion": "The problem has {0} and {1}: there is {2} too many."
+    "diag_sobra_ecuacion": "The problem has {0} and {1}: there is {2} too many.",
+    "diag_variables_sin_crear": "Some variables have not been created as data or unknowns: {0}. You can create them as unknowns with the «Search for unknowns [b]» button. They appear in:",
+    "diag_componente_variables_sin_crear": "{0} → not created: {1}"
 }
